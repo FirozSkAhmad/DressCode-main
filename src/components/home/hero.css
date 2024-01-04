@@ -1,0 +1,81 @@
+.hero__Ttl h1 {
+    font-family: Satoshi;
+    font-size: 133px;
+    font-weight: 500;
+    line-height: 110px;
+    letter-spacing: 0em;
+    /* text-align: left; */
+    text-transform: uppercase;
+}
+
+.hero__Para p {
+    font-family: Satoshi;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.05em;
+    text-align: left;
+}
+
+.shop_Now-txt span {
+    font-family: Satoshi;
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.hr_arw {
+    width: 20px;
+    height: 20px;
+}
+
+.hr_arw img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.hero__Wrap{
+    padding: 0 17rem;
+}
+.hero__Sec{
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
+    position: relative;
+}
+
+.hero__Sec::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 540px;
+    height: 540px;
+    background: url("../../../public/assets/images/orange.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero__Sec::after{
+    content: '';
+    position: absolute;
+    right: 0;
+    width: 540px;
+    height: 540px;
+    background: url("../../../public/assets/images/blue.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sub_Hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero__Cta{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
