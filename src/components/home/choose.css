@@ -1,0 +1,62 @@
+.choose__Wrap {
+    padding: 0 17rem;
+    margin-bottom: 30rem;
+}
+
+.choose__Ttl h2 {
+    font-family: Satoshi;
+    font-size: 171px;
+    font-weight: 500;
+    line-height: 170px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.choose__Ttl h2::after{
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: 20px;
+    width: 741px;
+    height: 5px;
+    background-color: #9E4528;
+}
+
+.choose__Card {
+    display: flex;
+    margin-top: 17rem;
+    justify-content: space-between;
+    gap: 11rem;
+}
+
+.ch_Crd {
+    flex: 1;
+    position: relative;
+}
+
+.ch_bx-cnt {
+    padding: 25px 0 32px 9px;
+    background-color: #DF3701;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.ch_bx-cnt h4 {
+    font-family: Satoshi;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.ch_bx-img img {
+    width: 100%;
+    object-fit: cover;
+}

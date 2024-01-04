@@ -1,0 +1,97 @@
+.ourService__Wrap {
+    padding: 0 17rem;
+    margin-bottom: 23rem;
+}
+
+.ser__Ttl h2 {
+    font-family: Satoshi;
+    font-size: 171px;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: -0.04em;
+    text-align: left;
+    padding-bottom: 36px;
+    display: inline-block;
+    border-bottom: 5px solid #9E4528;
+}
+
+.or_Ser-card {
+    margin-top: 66px;
+    display: flex;
+}
+
+.or_sr-cd {
+    flex: 1;
+    position: relative;
+}
+
+.or_sr-ovl {
+    height: 896px;
+}
+
+.or_sr-cnt h4 {
+    font-family: Satoshi;
+    font-size: 53px;
+    font-weight: 500;
+    line-height: 53px;
+    letter-spacing: -0.05em;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.or_sr-cnt p {
+    font-family: Satoshi;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.or_sr-cd1 {
+    background-color: #F68C87;
+
+}
+
+.or_sr-cd2 {
+    background-color: #B31613;
+}
+
+.or_sr-cd3 {
+    background-color: #014CAF;
+}
+
+.or_sr-cd1 .or_sr-ovl {
+    background-color: #F6B1A2;
+    border-bottom-left-radius: 249px;
+    border-bottom-right-radius: 249px;
+}
+
+.or_sr-cd2 .or_sr-ovl {
+    background-color: #EC3225;
+    border-top-left-radius: 249px;
+    border-top-right-radius: 249px;
+}
+
+.or_sr-cd3 .or_sr-ovl {
+    background-color: #0076D6;
+    border-bottom-left-radius: 249px;
+    border-bottom-right-radius: 249px;
+}
+
+.or_sr-cnt {
+    position: absolute;
+    padding: 0 60px 0 40px;
+}
+
+.or_sr-cd1 .or_sr-cnt {
+    top: 94px;
+}
+
+.or_sr-cd2 .or_sr-cnt {
+    bottom: 94px;
+}
+
+.or_sr-cd3 .or_sr-cnt {
+    top: 94px;
+}

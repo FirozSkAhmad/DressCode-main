@@ -5,6 +5,8 @@ import Footer from "../footer/Footer";
 import Hero from './Hero';
 import LatestProduct from './LatestProduct';
 import AboutUs from './AboutUs';
+import Choose from './Choose';
+import OurServices from './OurServices';
 
 
 // import LottieComponent from '../LottieComponent';
@@ -15,6 +17,9 @@ const Home = () => {
             <Header></Header>
             <Hero></Hero>
             <LatestProduct></LatestProduct>
+            <AboutUs></AboutUs>
+            <Choose></Choose>
+            <OurServices></OurServices>
             {/* <LottieComponent></LottieComponent> */}
         </div>
     )
