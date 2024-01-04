@@ -1,5 +1,10 @@
 .header__Wrap {
     padding: 3rem 17rem 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
 }
 
 .header_Sec {

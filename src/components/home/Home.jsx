@@ -4,6 +4,10 @@ import Footer from "../footer/Footer";
 
 import Hero from './Hero';
 import LatestProduct from './LatestProduct';
+import AboutUs from './AboutUs';
+
+
+// import LottieComponent from '../LottieComponent';
 
 const Home = () => {
     return (
@@ -11,6 +15,7 @@ const Home = () => {
             <Header></Header>
             <Hero></Hero>
             <LatestProduct></LatestProduct>
+            {/* <LottieComponent></LottieComponent> */}
         </div>
     )
 }
