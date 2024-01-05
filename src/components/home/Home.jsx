@@ -7,6 +7,7 @@ import LatestProduct from './LatestProduct';
 import AboutUs from './AboutUs';
 import Choose from './Choose';
 import OurServices from './OurServices';
+import OurProducts from './OurProducts';
 
 
 // import LottieComponent from '../LottieComponent';
@@ -20,6 +21,7 @@ const Home = () => {
             <AboutUs></AboutUs>
             <Choose></Choose>
             <OurServices></OurServices>
+            <OurProducts></OurProducts>
             {/* <LottieComponent></LottieComponent> */}
         </div>
     )
