@@ -1,14 +1,20 @@
 import React from 'react';
 import "./ourservices.css";
 
+import Fade from 'react-reveal/Fade';
+
+
+
 const OurServices = () => {
     return (
         <div className='ourService__Wrap'>
             <div className='ourService__Sec'>
                 <div className='ser__Ttl'>
-                    <h2>
-                        Our Services
-                    </h2>
+                    <Fade bottom duration={1000}>
+                        <h2>
+                            Our Services
+                        </h2>
+                    </Fade>
                 </div>
                 <div className='or_Ser-card'>
                     <div className='or_sr-cd or_sr-cd1'>

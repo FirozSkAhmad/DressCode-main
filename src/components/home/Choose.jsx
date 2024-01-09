@@ -1,14 +1,19 @@
 import React from 'react';
 import "./choose.css";
 
+import Fade from 'react-reveal/Fade';
+
+
 const Choose = () => {
     return (
         <div className='choose__Wrap'>
             <div className='choose__Sec'>
                 <div className='choose__Ttl'>
-                    <h2>
-                        Choose you<br></br>Uniform
-                    </h2>
+                    <Fade bottom duration={1000}>
+                        <h2>
+                            Choose you<br></br>Uniform
+                        </h2>
+                    </Fade>
                 </div>
                 <div className='choose__Card'>
                     <div className='ch_Crd'>

@@ -1,15 +1,20 @@
 import React from 'react';
 import "./review.css";
 
+import Fade from 'react-reveal/Fade';
+
+
 const Reviews = () => {
     return (
         <div className='review__Wrap'>
             <div className='review__Sec'>
                 <div className='review__Ttl'>
-                    <h2>
-                        Our Clients<br></br>
-                        <span>&</span> Reviews
-                    </h2>
+                    <Fade bottom duration={1000}>
+                        <h2>
+                            Our Clients<br></br>
+                            <span>&</span> Reviews
+                        </h2>
+                    </Fade>
                 </div>
                 <div className='review_Cmp-Boxes'>
                     <div className='rev_Logo-row'>

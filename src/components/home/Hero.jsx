@@ -1,6 +1,8 @@
 import React, { useEffect } from 'react';
 import "./hero.css";
 
+import Fade from 'react-reveal/Fade';
+
 
 const Hero = () => {
 
@@ -37,28 +39,38 @@ const Hero = () => {
             <div className='hero__Wrap'>
                 <div className='hero__Sec'>
                     <div className='hero__Ttl'>
-                        <h1>
-                            the<br></br>
-                            future of<br></br>
-                            uniform<br></br>
-                            shopping<br></br>
-                        </h1>
+                        <Fade bottom delay={1000} duration={1000}>
+                            <h1>
+                                the<br></br>
+                                future of<br></br>
+                                uniform<br></br>
+                                shopping<br></br>
+                            </h1>
+                        </Fade>
                     </div>
                     <div className='sub_Hero'>
                         <div className='hero__Para'>
-                            <p>
-                                The Uniform must last. We help you<br></br>
-                                choose the fabric from one of the<br></br>
-                                leading garment manufacturers of<br></br>
-                                India like Benny, Sairam, Reliance, ...
-                            </p>
+                            <Fade bottom delay={2000} duration={1000}>
+                                <p>
+                                    The Uniform must last. We help you<br></br>
+                                    choose the fabric from one of the<br></br>
+                                    leading garment manufacturers of<br></br>
+                                    India like Benny, Sairam, Reliance, ...
+                                </p>
+                            </Fade>
+                            {/* <Fade bottom delay={1000} duration={1000}></Fade> */}
+
                         </div>
                         <div className='hero__Cta'>
                             <div className='hr_arw'>
-                                <img src="assets/images/arrow-down.png" alt="arrow down" />
+                                <Fade bottom delay={2000} duration={1000}>
+                                    <img src="assets/images/arrow-down.png" alt="arrow down" />
+                                </Fade>
                             </div>
                             <div className='shop_Now-txt'>
-                                <span>Shop Now</span>
+                                <Fade bottom delay={2000} duration={1000}>
+                                    <span>Shop Now</span>
+                                </Fade>
                             </div>
                         </div>
                     </div>

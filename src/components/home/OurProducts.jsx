@@ -1,14 +1,19 @@
 import React from 'react';
 import "./ourproducts.css";
 
+import Fade from 'react-reveal/Fade';
+
+
 const OurProducts = () => {
     return (
         <div className='ourProduct__Wrap'>
             <div className='ourProduct__Sec'>
                 <div className='ourProduct_Ttl'>
-                    <h2>
-                        Our Products
-                    </h2>
+                    <Fade bottom duration={1000}>
+                        <h2>
+                            Our Products
+                        </h2>
+                    </Fade>
                 </div>
                 <div className='our_products'>
                     <div className='or_prd-row or_prd-row1'>
@@ -71,9 +76,13 @@ const OurProducts = () => {
             </div>
             <div className='interested__Sec'>
                 <div className='intr__Ttl'>
-                    <h3>
-                        Interested?
-                    </h3>
+
+                    <Fade bottom duration={1000}>
+                        <h3>
+                            Interested?
+                        </h3>
+                    </Fade>
+
                     <p>
                         Elevate your uniform experience with us,
                         where quality and style unite seamlessly.
