@@ -1,0 +1,126 @@
+.footer__Wrap {
+    padding: 0 7rem 4rem;
+}
+
+.footer_Sec {
+    position: relative;
+}
+
+.footer__Ttl h2 {
+    font-family: Satoshi;
+    font-size: 187px;
+    font-weight: 400;
+    line-height: 153px;
+    letter-spacing: -0.05em;
+    text-align: center;
+}
+
+.ft-arrow {
+    width: 103px;
+    height: 123px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.ft-arrow img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.ft_nv-top ul {
+    display: flex;
+    gap: 78px;
+}
+
+.ft_nv-top li {
+    border: 1px solid #D9D9D9;
+    border-radius: 130px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.ft_nv-top a {
+    font-family: Satoshi;
+    font-size: 57px;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: -0.05em;
+    text-align: center;
+    color: #fff;
+    padding: 17px 0;
+}
+
+.ft_nv-top {
+    margin-top: 16rem;
+}
+
+.ft_scl ul {
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+}
+
+.ft_scl li {
+    flex: 1;
+    padding-top: 50px;
+    border-top: 1px solid #E7E7E7;
+}
+
+.ft_scl a {
+    font-family: Satoshi;
+    font-size: 57px;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: -0.05em;
+    text-align: center;
+    color: #E7E7E7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ft_scl {
+    margin-top: 34rem;
+}
+
+.ft_nv-btm {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 6rem;
+}
+
+.copy-right span {
+    font-family: Satoshi;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.nv_rgt {
+    display: flex;
+    align-items: center;
+    gap: 13rem;
+}
+
+.nv_rgt a {
+    font-family: Satoshi;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+}
+
+.ft_circle {
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+}

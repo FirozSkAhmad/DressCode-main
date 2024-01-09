@@ -1,6 +1,6 @@
 .ourProduct__Wrap {
     padding: 0 17rem;
-    margin-bottom: 22rem;
+    margin-bottom: 11rem;
 }
 
 .ourProduct_Ttl h2 {
@@ -163,4 +163,60 @@
 .or_prd-row4 {
     transform: rotate(6deg);
     justify-content: flex-end;
+}
+
+.interested__Sec {
+    margin-top: 22rem;
+    display: flex;
+    gap: 20rem;
+}
+
+.intr__Ttl h3 {
+    font-family: Satoshi;
+    font-size: 94px;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: 0em;
+    text-align: left;
+    display: inline-block;
+    padding-bottom: 35px;
+    border-bottom: 5px solid #9E4528;
+}
+
+.intr__Str {
+    position: relative;
+}
+
+.intr_str-cle {
+    width: 486px;
+    height: 486px;
+}
+
+.intr_str-cle img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.intr__Str a {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Satoshi;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 57px;
+    letter-spacing: -0.05em;
+    text-align: left;
+    text-decoration: none;
+    color: #fff;
+}
+
+.intr__Ttl p {
+    font-family: Satoshi;
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 57px;
+    letter-spacing: 0em;
+    text-align: left;
 }

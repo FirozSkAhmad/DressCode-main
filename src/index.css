@@ -47,6 +47,14 @@ body {
   overflow-x: hidden;
 }
 
-.page__Wrap{
+.page__Wrap {
   position: relative;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
 }

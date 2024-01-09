@@ -69,6 +69,25 @@ const OurProducts = () => {
                     </div>
                 </div>
             </div>
+            <div className='interested__Sec'>
+                <div className='intr__Ttl'>
+                    <h3>
+                        Interested?
+                    </h3>
+                    <p>
+                        Elevate your uniform experience with us,
+                        where quality and style unite seamlessly.
+                        Explore our store today and find the
+                        perfect fit for your unique needs.
+                    </p>
+                </div>
+                <div className='intr__Str'>
+                    <div className='intr_str-cle'>
+                        <img src="assets/images/str_cle.png" alt="star" />
+                    </div>
+                    <a href="">Visit Store</a>
+                </div>
+            </div>
         </div>
     )
 }

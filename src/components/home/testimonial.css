@@ -1,0 +1,170 @@
+.testimonial_Wrap {
+    padding: 0 17rem;
+    margin-bottom: 30rem;
+}
+
+.testimonial__Sec {
+    display: flex;
+}
+
+.test_col1 {
+    display: flex;
+    width: 50%;
+}
+
+.test_col2 {
+    width: 50%;
+    position: relative;
+}
+
+.test_dsn-div {
+    width: 50%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.testimonial__Slide-wrap {
+    width: 50%;
+}
+
+.testimonial-inner {
+    width: 100%;
+    padding-left: 46px;
+}
+
+.testimonial__Slide-wrap {
+    background: #DFA924;
+    border-radius: 195px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.test_sl-content {
+    display: flex;
+    flex-direction: column;
+    gap: 53px;
+}
+
+.test_up-wrap {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.test_sl-img {
+    width: 45px;
+    height: 45px;
+}
+
+.test_sl-img img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.test_sl-name span {
+    font-family: Satoshi;
+    font-size: 34px;
+    font-weight: 500;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.test_tl-ttl p {
+    font-family: Satoshi;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-right: 40%;
+}
+
+.test_col2 {
+    padding: 21rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1675C3;
+    border-radius: 100%;
+}
+
+.test_ttl-div h4 {
+    font-family: Satoshi;
+    font-size: 68px;
+    font-weight: 500;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.test_bl {
+    width: 100%;
+    height: 50%;
+    background: #35AC5E;
+    border-radius: 100%;
+}
+
+.swiper-button-prev:after {
+    display: none;
+}
+
+.swiper-button-next:after {
+    display: none;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    width: 195px;
+    height: 195px;
+    background: #DF3701;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(180deg);
+}
+
+.sl_btn {
+    position: relative;
+    width: 100%;
+    height: 50%;
+}
+
+.swiper-button-prev {
+    top: unset;
+    bottom: 0px;
+    left: 0;
+}
+
+.swiper-button-next {
+    top: unset;
+    bottom: 0;
+    right: 0;
+}
+
+.quote_test {
+    width: 128px;
+    height: 128px;
+    position: absolute;
+    bottom: 28px;
+    right: 28px;
+    background: #D8FA00;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote_test span {
+    font-family: Satoshi;
+    font-size: 140px;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000;
+}

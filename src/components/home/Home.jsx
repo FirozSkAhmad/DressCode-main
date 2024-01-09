@@ -8,6 +8,8 @@ import AboutUs from './AboutUs';
 import Choose from './Choose';
 import OurServices from './OurServices';
 import OurProducts from './OurProducts';
+import Reviews from './Reviews';
+import TestimonialSlider from './TestimonialSlider';
 
 
 // import LottieComponent from '../LottieComponent';
@@ -22,6 +24,9 @@ const Home = () => {
             <Choose></Choose>
             <OurServices></OurServices>
             <OurProducts></OurProducts>
+            <Reviews></Reviews>
+            <TestimonialSlider></TestimonialSlider>
+            <Footer></Footer>
             {/* <LottieComponent></LottieComponent> */}
         </div>
     )
