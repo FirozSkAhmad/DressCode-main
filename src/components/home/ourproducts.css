@@ -149,19 +149,21 @@
 }
 
 .or_prd-row1 {
-    transform: rotate(-6deg);
+    /* transform: rotate(-6deg); */
+    position: relative;
+    top: 50px;
 }
 
 .or_prd-row2 {
-    transform: rotate(6deg);
+    /* transform: rotate(6deg); */
 }
 
 .or_prd-row3 {
-    transform: rotate(-6deg);
+    /* transform: rotate(-6deg); */
 }
 
 .or_prd-row4 {
-    transform: rotate(6deg);
+    /* transform: rotate(6deg); */
     justify-content: flex-end;
 }
 
@@ -190,6 +192,21 @@
 .intr_str-cle {
     width: 486px;
     height: 486px;
+    animation: rotate 3s cubic-bezier(0.17, 0.55, 0.55, 1) forwards infinite;
+}
+
+@keyframes rotate {
+    30% {
+        transform: rotate(6deg);
+    }
+
+    60%{
+        transform: rotate(12deg);
+    }
+
+    90% {
+        transform: rotate(0deg);
+    }
 }
 
 .intr_str-cle img {

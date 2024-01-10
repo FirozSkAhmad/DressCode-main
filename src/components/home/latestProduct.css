@@ -3,6 +3,29 @@
     margin: 10rem 0 17rem 0;
 }
 
+.lt_pt-Ttl {
+    position: relative;
+}
+
+.lt_pt-line {
+    position: absolute;
+    right: 17rem;
+    left: 52%;
+    top: 60px;
+}
+
+.lt_ln {
+    display: inline-block;
+    width: 64px;
+    height: 5px;
+    background-color: #9E4528;
+    transition: all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1);
+}
+
+.lt_pt-Ttl:hover .lt_ln{
+    width: 100%;
+}
+
 .lt_pt-Ttl h2 {
     font-family: Satoshi;
     font-size: 171px;
@@ -10,11 +33,10 @@
     line-height: 150px;
     letter-spacing: -0.05em;
     text-align: left;
-    padding-right: 17rem;
     position: relative;
 }
 
-.lt_pt-Ttl h2::after {
+/* .lt_pt-Ttl h2::after {
     content: '';
     position: absolute;
     right: 17rem;
@@ -22,7 +44,7 @@
     height: 5px;
     background-color: #9E4528;
     top: 60px;
-}
+} */
 
 .lt_Btm-row {
     display: flex;

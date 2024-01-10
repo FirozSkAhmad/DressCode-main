@@ -9,11 +9,14 @@ const Choose = () => {
         <div className='choose__Wrap'>
             <div className='choose__Sec'>
                 <div className='choose__Ttl'>
-                    <Fade bottom duration={1000}>
+                    <Fade top duration={1000}>
                         <h2>
                             Choose you<br></br>Uniform
                         </h2>
                     </Fade>
+                    <div className='ch_ln-wp'>
+                        <span className='ch_ln'></span>
+                    </div>
                 </div>
                 <div className='choose__Card'>
                     <div className='ch_Crd'>

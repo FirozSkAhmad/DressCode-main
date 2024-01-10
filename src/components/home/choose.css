@@ -14,7 +14,7 @@
     position: relative;
 }
 
-.choose__Ttl h2::after{
+/* .choose__Ttl h2::after{
     content: '';
     position: absolute;
     right: 0;
@@ -22,6 +22,29 @@
     width: 741px;
     height: 5px;
     background-color: #9E4528;
+} */
+
+.choose__Ttl {
+    position: relative;
+}
+
+.ch_ln-wp {
+    position: absolute;
+    right: 0;
+    left: 53%;
+    bottom: 20px;
+}
+
+.ch_ln {
+    display: inline-block;
+    width: 64px;
+    height: 5px;
+    background-color: #9E4528;
+    transition: all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1);
+}
+
+.choose__Ttl:hover .ch_ln {
+    width: 100%;
 }
 
 .choose__Card {

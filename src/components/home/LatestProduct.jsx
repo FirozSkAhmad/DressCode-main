@@ -9,6 +9,9 @@ const LatestProduct = () => {
                     <h2>
                         Latest<br></br>Products
                     </h2>
+                    <div className='lt_pt-line'>
+                        <span className='lt_ln'></span>
+                    </div>
                 </div>
                 <div className='lt_Btm-row'>
                     <div className='lt_para'>

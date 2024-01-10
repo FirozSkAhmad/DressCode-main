@@ -9,12 +9,15 @@ const Reviews = () => {
         <div className='review__Wrap'>
             <div className='review__Sec'>
                 <div className='review__Ttl'>
-                    <Fade bottom duration={1000}>
+                    <Fade top duration={1000}>
                         <h2>
                             Our Clients<br></br>
                             <span>&</span> Reviews
                         </h2>
                     </Fade>
+                    <div className='rv_ln-wp'>
+                        <span className='rv-ln'></span>
+                    </div>
                 </div>
                 <div className='review_Cmp-Boxes'>
                     <div className='rev_Logo-row'>

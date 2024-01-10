@@ -19,15 +19,17 @@ const AboutUs = () => {
                         <img src='assets/images/about.png' alt='about'></img>
                     </div>
                     <div className='abt_para abt_para1'>
-                        <h3>
-                            Our Humble Beginnings
-                        </h3>
-                        <p>
-                            DressCode Elevating Excellence.
-                            Unparalleled quality, innovation, and
-                            service tailored to your needs. Embark
-                            on a journey with us for the finest in business attire.
-                        </p>
+                        <Fade bottom duration={1000}>
+                            <h3>
+                                Our Humble Beginnings
+                            </h3>
+                            <p>
+                                DressCode Elevating Excellence.
+                                Unparalleled quality, innovation, and
+                                service tailored to your needs. Embark
+                                on a journey with us for the finest in business attire.
+                            </p>
+                        </Fade>
                     </div>
                 </div>
                 <div className='about__Row about__Row2'>

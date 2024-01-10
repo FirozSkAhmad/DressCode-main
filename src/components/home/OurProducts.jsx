@@ -1,10 +1,15 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import "./ourproducts.css";
 
 import Fade from 'react-reveal/Fade';
+import { useInView } from "framer-motion";
 
 
 const OurProducts = () => {
+
+    const ref = useRef(null);
+    const isInView = useInView(ref, { once: true });
+
     return (
         <div className='ourProduct__Wrap'>
             <div className='ourProduct__Sec'>
@@ -15,8 +20,13 @@ const OurProducts = () => {
                         </h2>
                     </Fade>
                 </div>
-                <div className='our_products'>
-                    <div className='or_prd-row or_prd-row1'>
+                <div className='our_products' ref={ref}>
+                    <div className='or_prd-row or_prd-row1'
+                        style={{
+                            transform: isInView ? "rotate(-6deg)" : "none",
+                            transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
+                        }}
+                    >
                         <div className='or_prd-col'>
                             <div className='or_prd-img'>
                                 <img src="assets/images/shirt.png" alt="shirt" />
@@ -30,7 +40,12 @@ const OurProducts = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='or_prd-row or_prd-row2'>
+                    <div className='or_prd-row or_prd-row2'
+                        style={{
+                            transform: isInView ? "rotate(6deg)" : "none",
+                            transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
+                        }}
+                    >
                         <div className='or_prd-col'>
                             <div className='or_prd-cnt'>
                                 <h3>Trousers</h3>
@@ -44,7 +59,12 @@ const OurProducts = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='or_prd-row or_prd-row3'>
+                    <div className='or_prd-row or_prd-row3'
+                        style={{
+                            transform: isInView ? "rotate(-6deg)" : "none" ,
+                            transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
+                        }}
+                    >
                         <div className='or_prd-col'>
                             <div className='or_prd-cnt'>
                                 <h3>School Shoes</h3>
@@ -58,7 +78,12 @@ const OurProducts = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='or_prd-row or_prd-row4'>
+                    <div className='or_prd-row or_prd-row4'
+                        style={{
+                            transform: isInView ? "rotate(6deg)" : "none",
+                            transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
+                        }}
+                    >
                         <div className='or_prd-col'>
                             <div className='or_prd-img'>
                                 <img src="assets/images/school-socks.png" alt="school socks" />

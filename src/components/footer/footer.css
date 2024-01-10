@@ -58,14 +58,14 @@
 
 .ft_scl ul {
     display: flex;
-    gap: 40px;
+    gap: 50px;
     justify-content: space-between;
 }
 
 .ft_scl li {
     flex: 1;
-    padding-top: 50px;
-    border-top: 1px solid #E7E7E7;
+    /* padding-top: 50px; */
+    /* border-top: 1px solid #E7E7E7; */
 }
 
 .ft_scl a {
@@ -82,7 +82,7 @@
 }
 
 .ft_scl {
-    margin-top: 34rem;
+    margin-top: 50px;
 }
 
 .ft_nv-btm {
@@ -123,4 +123,20 @@
     left: 50%;
     transform: translateX(-50%);
     z-index: -1;
+}
+
+.ft_ln_wp {
+    margin-top: 34rem;
+}
+
+.ft_ln_wp ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.ft_ln_wp li {
+    width: 0%;
+    height: 1px;
+    background: #E7E7E7;
 }
