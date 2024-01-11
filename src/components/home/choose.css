@@ -83,3 +83,26 @@
     width: 100%;
     object-fit: cover;
 }
+
+@media only screen and (max-width: 1680px) {
+    .choose__Wrap {
+        padding: 0 8rem;
+    }
+
+    .choose__Ttl h2 {
+        font-size: 120px;
+        line-height: 120px;
+    }
+
+    .choose__Card {
+        gap: 8rem;
+    }
+
+    .ch_bx-cnt h4 {
+        font-size: 24px;
+    }
+
+    .ch_bx-cnt {
+        padding: 20px 0 27px 9px;
+    }
+}

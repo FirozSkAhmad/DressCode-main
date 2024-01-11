@@ -43,7 +43,7 @@
     padding-bottom: 7px;
 }
 
-.navbar a::before{
+.navbar a::before {
     content: '';
     position: absolute;
     bottom: 0;
@@ -54,7 +54,7 @@
     transition: all 0.5s cubic-bezier(0.17, 0.55, 0.55, 1);
 }
 
-.navbar a:hover::before{
+.navbar a:hover::before {
     width: 100%;
 }
 
@@ -84,4 +84,27 @@
     text-transform: capitalize;
     text-decoration: none;
     color: #fff;
+}
+
+
+@media only screen and (max-width: 1680px) {
+    .header__Wrap {
+        padding: 2rem 8rem 0;
+    }
+
+    .navbar a {
+        font-size: 14px;
+        line-height: 15px;
+        padding-bottom: 5px;
+    }
+
+    .nav_Social a {
+        font-size: 17px;
+        line-height: 15px;
+    }
+
+    .menu_bar {
+        width: 38px;
+        height: 12px;
+    }
 }

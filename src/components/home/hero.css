@@ -168,6 +168,35 @@
     height: 100%;
 }
 
+@media only screen and (max-width: 1680px) {
+    .hero__Wrap {
+        padding: 18rem 8rem 0 8rem;
+    }
+
+    .hero__Sec {
+        gap: 5rem;
+    }
+
+    .hero__Ttl h1 {
+        font-size: 80px;
+        line-height: 70px;
+    }
+
+    .hero__Para p {
+        font-size: 15px;
+        line-height: 15px;
+    }
+
+    .shop_Now-txt span {
+        font-size: 32px;
+    }
+
+    .hr_arw {
+        width: 16px;
+        height: 16px;
+    }
+}
+
 
 @media (max-width: 1200px) {
     .bouncing-blobs-glass {
