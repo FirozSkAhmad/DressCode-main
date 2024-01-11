@@ -18,7 +18,7 @@ const OurServices = () => {
                 </div>
                 <div className='or_Ser-card'>
                     <div className='or_sr-cd or_sr-cd1'>
-                        <div className='or_sr-ovl'></div>
+                        <div className='or_sr-ovl or_sr-ovl1'></div>
                         <div className='or_sr-cnt'>
                             <h4>Choose Garment</h4>
                             <p>
@@ -31,7 +31,7 @@ const OurServices = () => {
                         </div>
                     </div>
                     <div className='or_sr-cd or_sr-cd2'>
-                        <div className='or_sr-ovl'></div>
+                        <div className='or_sr-ovl or_sr-ovl2'></div>
                         <div className='or_sr-cnt'>
                             <h4>Select Size</h4>
                             <p>
@@ -44,7 +44,7 @@ const OurServices = () => {
                         </div>
                     </div>
                     <div className='or_sr-cd or_sr-cd3'>
-                        <div className='or_sr-ovl'></div>
+                        <div className='or_sr-ovl or_sr-ovl3'></div>
                         <div className='or_sr-cnt'>
                             <h4>Order</h4>
                             <p>
