@@ -17,7 +17,7 @@ const Choose = () => {
                 <div className='choose__Ttl'>
                     <Fade top duration={1000}>
                         <h2>
-                            Choose you<br></br>Uniform
+                            Choose your<br></br>Uniform
                         </h2>
                     </Fade>
                     <div className='ch_ln-wp' ref={ref}>
