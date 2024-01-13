@@ -67,6 +67,7 @@
 .menu_bar {
     width: 49px;
     height: 13px;
+    cursor: pointer;
 }
 
 .menu_bar img {

@@ -1,10 +1,16 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import "./choose.css";
 
 import Fade from 'react-reveal/Fade';
 
+import { useInView } from "framer-motion";
+
+
+
 
 const Choose = () => {
+    const ref = useRef(null);
+    const isInView = useInView(ref, { once: true });
     return (
         <div className='choose__Wrap'>
             <div className='choose__Sec'>
@@ -14,8 +20,13 @@ const Choose = () => {
                             Choose you<br></br>Uniform
                         </h2>
                     </Fade>
-                    <div className='ch_ln-wp'>
-                        <span className='ch_ln'></span>
+                    <div className='ch_ln-wp' ref={ref}>
+                        <span className='ch_ln'
+                            style={{
+                                width: isInView ? "100%" : "64px",
+                                transition: "all 1s cubic-bezier(0.17, 0.55, 0.55, 1) .5s"
+                            }}
+                        ></span>
                     </div>
                 </div>
                 <div className='choose__Card'>

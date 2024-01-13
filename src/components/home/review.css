@@ -85,9 +85,9 @@
     width: 64px;
     height: 5px;
     background-color: #9E4528;
-    transition: all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1);
+    /* transition: all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1); */
 }
 
-.review__Ttl:hover .rv-ln {
+/* .review__Ttl:hover .rv-ln {
     width: 100%;
-}
+} */

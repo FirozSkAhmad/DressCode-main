@@ -192,20 +192,21 @@
 .intr_str-cle {
     width: 486px;
     height: 486px;
-    animation: rotate 3s cubic-bezier(0.17, 0.55, 0.55, 1) forwards infinite;
+    /* animation: rotate 3s cubic-bezier(0.17, 0.55, 0.55, 1) forwards infinite; */
+    animation: rotate-animation 20s infinite linear;
 }
 
-@keyframes rotate {
-    30% {
-        transform: rotate(6deg);
-    }
-
-    60%{
-        transform: rotate(12deg);
-    }
-
-    90% {
+@keyframes rotate-animation {
+    0% {
         transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(180deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
     }
 }
 

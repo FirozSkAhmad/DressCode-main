@@ -12,19 +12,22 @@
     right: 17rem;
     left: 52%;
     top: 60px;
+    /* background: #9E4528; */
+    /* height: 5px; */
 }
 
 .lt_ln {
+    /* position: absolute; */
     display: inline-block;
     width: 64px;
     height: 5px;
     background-color: #9E4528;
-    transition: all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1);
+    /* transition: all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1); */
 }
 
-.lt_pt-Ttl:hover .lt_ln {
+/* .lt_pt-Ttl:hover .lt_ln {
     width: 100%;
-}
+} */
 
 .lt_pt-Ttl h2 {
     font-family: Satoshi;
@@ -133,35 +136,49 @@
 @media only screen and (max-width: 1680px) {
     .latestProduct__Wrap {
         padding-left: 8rem;
+        margin: 10rem 0 14rem 0;
     }
-    .lt_pt-Ttl h2{
+
+    .lt_pt-Ttl h2 {
         font-size: 120px;
         line-height: 100px;
     }
-    .lt_pt-line{
+
+    .lt_pt-line {
         right: 8rem;
+        top: 35px;
     }
-    .lt_Btm-row{
+
+    .lt_Btm-row {
         gap: 6rem;
     }
-    .lt_para h3{
+
+    .lt_para h3 {
         font-size: 32px;
         line-height: 46px;
     }
-    .lt_para p{
+
+    .lt_para p {
         font-size: 24px;
         line-height: 36px;
     }
-    .lt_pr-halfCrl{
+
+    .lt_pr-halfCrl {
         height: 440px;
     }
-    .lt_pr-halfCrl::before{
+
+    .lt_pr-halfCrl::before {
         left: -70px;
         width: 440px;
         height: 100%;
     }
-    .lt_pr-halfCrl a{
+
+    .lt_pr-halfCrl a {
         font-size: 24px;
         line-height: 40px;
+    }
+
+    .lt_ln {
+        height: 3px;
     }
 }

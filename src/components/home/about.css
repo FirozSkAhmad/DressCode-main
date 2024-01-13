@@ -100,12 +100,31 @@
 @media only screen and (max-width: 1680px) {
     .about__Wrap {
         padding: 0 8rem;
+        margin-bottom: 22rem;
     }
 
     .about__Ttl h2 {
         font-size: 120px;
         padding-bottom: 30px;
         margin-bottom: 26px;
+        border-bottom: 3px solid #9E4528;
+    }
+
+    .about__Row2 {
+        margin-top: 8rem;
+    }
+
+    .abt_Cta button {
+        font-size: 18px;
+    }
+
+    .abt_Cta {
+        padding-top: 6rem;
+    }
+
+    .arrow {
+        width: 32px;
+        height: 32px;
     }
 
     .abt_para h3 {

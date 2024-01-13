@@ -28,7 +28,7 @@
 
 .or_sr-ovl {
     height: 896px;
-    transition: all 0.5s cubic-bezier(0.17, 0.55, 0.55, 1);
+    /* transition: all 0.5s cubic-bezier(0.17, 0.55, 0.55, 1); */
 }
 
 .or_sr-cnt h4 {
@@ -99,7 +99,7 @@
 }
 
 
-.or_sr-ovl1 {
+/* .or_sr-ovl1 {
     transform: translateY(-100%);
 }
 
@@ -121,16 +121,16 @@
 
 .or_Ser-card:hover .or_sr-ovl3 {
     transform: translateY(0%);
-}
+} */
 
-.or_sr-cnt {
+/* .or_sr-cnt {
     opacity: 0;
     transition: all 0.5s cubic-bezier(0.17, 0.55, 0.55, 1) .5s;
 }
 
 .or_Ser-card:hover .or_sr-cnt {
     opacity: 1;
-}
+} */
 
 @media only screen and (max-width: 1680px) {
     .ourService__Wrap {

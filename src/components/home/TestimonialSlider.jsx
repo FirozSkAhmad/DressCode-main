@@ -67,19 +67,19 @@ const TestimonialSlider = () => {
 
                         </div>
                         <div className='sl_btn'>
-                            <div class="swiper-button-prev">
+                            <div className="swiper-button-prev">
                                 <img src="assets/images/sl-right.png" alt="right" />
                             </div>
-                            <div class="swiper-button-next">
+                            <div className="swiper-button-next">
                                 <img src="assets/images/sl-left.png" alt="left" />
                             </div>
                         </div>
                     </div>
                     <div className='testimonial__Slide-wrap'>
                         <div className='testimonial-inner'>
-                            <div class="swiper-container" ref={caseSwiperRef}>
-                                <div class="swiper-wrapper">
-                                    <div class="swiper-slide">
+                            <div className="swiper-container" ref={caseSwiperRef}>
+                                <div className="swiper-wrapper">
+                                    <div className="swiper-slide">
                                         <div className='test_sl-content'>
                                             <div className='test_up-wrap'>
                                                 <div className='test_sl-img'>
@@ -94,7 +94,7 @@ const TestimonialSlider = () => {
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="swiper-slide">
+                                    <div className="swiper-slide">
                                         <div className='test_sl-content'>
                                             <div className='test_up-wrap'>
                                                 <div className='test_sl-img'>
@@ -109,7 +109,7 @@ const TestimonialSlider = () => {
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="swiper-slide">
+                                    <div className="swiper-slide">
                                         <div className='test_sl-content'>
                                             <div className='test_up-wrap'>
                                                 <div className='test_sl-img'>
@@ -124,7 +124,7 @@ const TestimonialSlider = () => {
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="swiper-slide">
+                                    <div className="swiper-slide">
                                         <div className='test_sl-content'>
                                             <div className='test_up-wrap'>
                                                 <div className='test_sl-img'>
