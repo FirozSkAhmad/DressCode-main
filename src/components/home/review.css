@@ -91,3 +91,36 @@
 /* .review__Ttl:hover .rv-ln {
     width: 100%;
 } */
+
+@media only screen and (max-width: 1680px) {
+    .review__Wrap {
+        padding: 0 8rem;
+        margin-bottom: 18rem;
+    }
+
+    .review__Ttl h2 {
+        font-size: 130px;
+        line-height: 130px;
+    }
+
+    .rv-ln {
+        height: 3px;
+    }
+
+    .review_Cmp-Boxes {
+        margin-top: 8rem;
+    }
+
+    .rev_logo-col {
+        height: 300px;
+    }
+
+    .rev_logo-col1 span {
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .rev_Cta a{
+        font-size: 24px;
+        line-height: 30px;
+    }
+}

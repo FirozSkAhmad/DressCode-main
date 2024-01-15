@@ -168,3 +168,44 @@
     text-align: left;
     color: #000;
 }
+
+@media only screen and (max-width: 1680px) {
+    .testimonial_Wrap {
+        padding: 0 8rem;
+        margin-bottom: 22rem;
+    }
+
+    .swiper-button-prev,
+    .swiper-button-next {
+        width: 148px;
+        height: 148px;
+    }
+
+    .test_sl-name span {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .test_tl-ttl p {
+        font-size: 17px;
+        line-height: 20px;
+    }
+
+    .test_col2 {
+        padding: 15rem 0;
+    }
+
+    .test_ttl-div h4 {
+        font-size: 50px;
+        line-height: 48px;
+    }
+
+    .quote_test {
+        width: 100px;
+        height: 100px;
+    }
+
+    .quote_test span {
+        font-size: 100px;
+    }
+}

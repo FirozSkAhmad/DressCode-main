@@ -67,34 +67,38 @@ const Footer = () => {
                     <Fade bottom delay={1000} duration={1000}>
                         <ul>
                             <li>
-                                <a href="">
+                                <a href="" className='ft_fb'>
                                     <span>
                                         facebook
                                     </span>
+                                    {/* <i class="fa-brands fa-facebook-f"></i> */}
                                     <img src='assets/images/fb.png' alt='fb'></img>
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a href="" className='ft_insta'>
                                     <span>
                                         Instagram
                                     </span>
+                                    {/* <i class="fa-brands fa-instagram"></i> */}
                                     <img src='assets/images/insta.png' alt='insta'></img>
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a href="" className='ft_ln'>
                                     <span>
                                         Linkedin
                                     </span>
+                                    {/* <i class="fa-brands fa-linkedin-in"></i> */}
                                     <img src='assets/images/in.png' alt='in'></img>
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a href="" className='ft_tw'>
                                     <span>
                                         Twitter
                                     </span>
+                                    {/* <i class="fa-brands fa-x-twitter"></i> */}
                                     <img src='assets/images/twt.png' alt='twt'></img>
                                 </a>
                             </li>

@@ -8,7 +8,7 @@
     font-size: 171px;
     font-weight: 500;
     line-height: 1;
-    letter-spacing: 0em;
+    letter-spacing: -0.04em;
     text-align: left;
     padding-bottom: 36px;
     display: inline-block;
@@ -237,4 +237,107 @@
     line-height: 57px;
     letter-spacing: 0em;
     text-align: left;
+    margin-top: 46px;
+}
+
+@media only screen and (max-width: 1680px) {
+    .ourProduct__Wrap {
+        padding: 0 8rem;
+    }
+
+    .ourProduct_Ttl h2 {
+        font-size: 120px;
+        border-bottom: 3px solid #9E4528;
+        padding-bottom: 30px;
+    }
+
+    .or_prd-cnt h3 {
+        font-size: 32px;
+        padding-bottom: 15px;
+    }
+
+    .or_prd-cnt p {
+        font-size: 24px;
+        margin-top: 15px;
+    }
+
+    .or_prd-row1 .or_prd-col {
+        height: 240px;
+        padding: 0 30px 0 60px;
+    }
+
+    .or_prd-col {
+        gap: 5rem;
+        height: 240px;
+    }
+
+    .or_prd-row1 .or_prd-img {
+        width: 100px;
+        height: 90px;
+    }
+
+    .or_prd-row2 .or_prd-img {
+        width: 120px;
+        height: 86px;
+    }
+
+    .or_prd-row2 .hl {
+        width: 860px;
+    }
+
+    .or_prd-row2 {
+        padding: 0 80px 0 60px;
+    }
+
+    .or_prd-row3 .or_prd-img {
+        width: 120px;
+        height: 80px;
+    }
+
+    .or_prd-row3 .hl {
+        width: 620px;
+    }
+
+    .or_prd-row3 .or_prd-col {
+        padding: 0 60px 0 80px;
+    }
+
+    .or_prd-row4 .or_prd-img {
+        width: 100px;
+        height: 110px;
+    }
+
+    .or_prd-row4 .or_prd-col {
+        padding: 0 80px 0 80px;
+    }
+
+    .or_prd-row4 .hl {
+        width: 620px;
+    }
+
+    .our_products {
+        margin-top: 10rem;
+    }
+
+    .intr__Ttl h3 {
+        font-size: 60px;
+        padding-bottom: 27px;
+        border-bottom: 3px solid #9E4528;
+    }
+
+    .intr__Ttl p {
+        font-size: 24px;
+        line-height: 36px;
+        margin-top: 30px;
+    }
+
+    .intr__Str a {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .intr_str-cle {
+        width: 286px;
+        height: 286px;
+    }
 }

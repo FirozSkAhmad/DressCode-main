@@ -140,3 +140,107 @@
     height: 1px;
     background: #E7E7E7;
 }
+
+/* .ft_scl i{
+    font-size: 46px;
+} */
+
+.ft_fb img {
+    width: 26px;
+    height: 49px;
+}
+
+.ft_insta img {
+    width: 48px;
+    height: 48px;
+}
+
+.ft_ln img {
+    width: 50px;
+    height: 49px;
+}
+
+.ft_tw img {
+    width: 43px;
+    height: 44px;
+}
+
+@media only screen and (max-width: 1680px) {
+    .footer__Ttl h2 {
+        font-size: 100px;
+        line-height: 100px;
+    }
+
+    .ft_nv-top {
+        margin-top: 8rem;
+    }
+
+    .ft_nv-top a {
+        font-size: 32px;
+        padding: 13px 0;
+    }
+
+    .ft_ln_wp {
+        margin-top: 22rem;
+    }
+
+    .ft_scl {
+        margin-top: 30px;
+    }
+
+    .ft_scl a {
+        font-size: 32px;
+    }
+
+    .ft_fb img {
+        width: 16px;
+        height: 32px;
+    }
+
+    .ft_insta img {
+        width: 34px;
+        height: 34px;
+    }
+
+    .ft_ln img {
+        width: 36px;
+        height: 35px;
+    }
+
+    .ft_tw img {
+        width: 29px;
+        height: 30px;
+    }
+
+    .ft_nv-btm {
+        margin-top: 3rem;
+    }
+
+    .copy-right span {
+        font-size: 13px;
+    }
+
+    .nv_rgt a {
+        font-size: 13px;
+    }
+
+    .ft_circle {
+        width: 580px;
+        height: 310px;
+        bottom: -20px;
+    }
+
+    .ft_circle img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .ft-arrow {
+        width: 60px;
+        height: 60px;
+    }
+
+    .footer__Wrap {
+        padding: 0 6rem 0rem;
+    }
+}

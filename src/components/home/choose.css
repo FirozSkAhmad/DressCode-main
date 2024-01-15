@@ -8,7 +8,7 @@
     font-size: 171px;
     font-weight: 500;
     line-height: 170px;
-    letter-spacing: 0em;
+    letter-spacing: -0.05em;
     text-align: left;
     text-transform: capitalize;
     position: relative;
@@ -87,6 +87,7 @@
 @media only screen and (max-width: 1680px) {
     .choose__Wrap {
         padding: 0 8rem;
+        margin-bottom: 18rem;
     }
 
     .choose__Ttl h2 {
@@ -96,6 +97,7 @@
 
     .choose__Card {
         gap: 8rem;
+        margin-top: 10rem;
     }
 
     .ch_bx-cnt h4 {
@@ -104,5 +106,9 @@
 
     .ch_bx-cnt {
         padding: 20px 0 27px 9px;
+    }
+
+    .ch_ln {
+        height: 3px;
     }
 }
