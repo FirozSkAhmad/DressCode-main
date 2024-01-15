@@ -182,3 +182,46 @@
         height: 3px;
     }
 }
+
+@media only screen and (max-width: 1200px) {
+    .latestProduct__Wrap {
+        padding-left: 6rem;
+    }
+
+    .lt_pt-Ttl h2 {
+        font-size: 100px;
+        line-height: 80px;
+    }
+
+    .lt_para {
+        margin-top: 8rem;
+    }
+
+    .lt_para h3 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+    .lt_para p {
+        font-size: 20px;
+        line-height: 34px;
+    }
+
+    .lt_pr-halfCrl {
+        height: 360px;
+    }
+
+    .lt_pr-halfCrl::before {
+        width: 360px;
+        left: -60px;
+    }
+
+    .lt_pr-halfCrl a {
+        font-size: 20px;
+        line-height: 35px;
+    }
+
+    .lt_Btm-row {
+        gap: 5rem;
+    }
+}

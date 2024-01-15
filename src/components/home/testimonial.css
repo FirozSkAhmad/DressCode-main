@@ -209,3 +209,24 @@
         font-size: 100px;
     }
 }
+
+@media only screen and (max-width: 1200px) {
+    .testimonial_Wrap {
+        padding: 0 6rem;
+    }
+
+    .test_col2 {
+        padding: 10rem 0;
+    }
+
+    .test_ttl-div h4 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .swiper-button-prev,
+    .swiper-button-next {
+        width: 110px;
+        height: 110px;
+    }
+}

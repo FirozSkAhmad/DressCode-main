@@ -139,3 +139,21 @@
         line-height: 36px;
     }
 }
+
+@media only screen and (max-width: 1200px) {
+    .about__Wrap {
+        padding: 0 6rem;
+    }
+
+    .about__Ttl h2 {
+        font-size: 100px;
+    }
+    .abt_para p {
+        font-size: 20px;
+        line-height: 33px;
+    }
+    .abt_para h3 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+}

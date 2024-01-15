@@ -185,7 +185,7 @@
     height: 100%;
 }
 
-.hero__Cta{
+.hero__Cta {
     cursor: pointer;
 }
 
@@ -216,16 +216,30 @@
         width: 16px;
         height: 16px;
     }
-    .bouncing-blob{
+
+    .bouncing-blob {
         width: 400px;
     }
 }
 
 
-@media (max-width: 1200px) {
+@media only screen and (max-width: 1200px) {
     .bouncing-blobs-glass {
         backdrop-filter: blur(120px);
         -webkit-backdrop-filter: blur(120px);
+    }
+
+    .shop_Now-txt span {
+        font-size: 28px;
+    }
+
+    .hero__Ttl h1 {
+        font-size: 65px;
+        line-height: 60px;
+    }
+
+    .hero__Wrap {
+        padding: 18rem 6rem 0 6rem;
     }
 }
 

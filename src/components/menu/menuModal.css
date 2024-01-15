@@ -273,7 +273,27 @@ textarea {
     .mn_Cl-icn i {
         font-size: 36px;
     }
-    .menu_Md-wrap{
+
+    .menu_Md-wrap {
         padding: 11rem 0;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .mn_Col2 a {
+        font-size: 40px;
+    }
+
+    .mn_Main-cnt {
+        align-items: center;
+    }
+
+    .mn_Cnt-us a {
+        font-size: 28px;
+        gap: 40px;
+    }
+
+    .mn_Cnt-bx {
+        padding: 0 6rem 0 6rem;
     }
 }

@@ -141,6 +141,7 @@
     .ser__Ttl h2 {
         font-size: 120px;
         padding-bottom: 30px;
+        border-bottom: 3px solid #9E4528;
     }
 
     .or_sr-ovl {
@@ -172,5 +173,29 @@
 
     .or_Ser-card {
         margin-top: 50px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .ourService__Wrap {
+        padding: 0 6rem;
+    }
+
+    .ser__Ttl h2 {
+        font-size: 100px;
+    }
+
+    .or_sr-cnt {
+        padding: 0 30px 0 30px;
+    }
+
+    .or_sr-cnt h4 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .or_sr-cnt p {
+        font-size: 15px;
+        line-height: 20px;
     }
 }

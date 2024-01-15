@@ -109,3 +109,9 @@
         height: 12px;
     }
 }
+
+@media only screen and (max-width: 1200px) {
+    .header__Wrap {
+        padding: 2rem 6rem 0;
+    }
+}
