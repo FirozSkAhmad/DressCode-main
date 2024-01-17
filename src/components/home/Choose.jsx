@@ -30,38 +30,47 @@ const Choose = () => {
                     </div>
                 </div>
                 <div className='choose__Card'>
-                    <div className='ch_Crd'>
-                        <div className='ch_bx-cnt'>
-                            <h4>Uniforms</h4>
+                    <Fade bottom duration={1000}>
+                        <div className='ch_Crd'>
+                            <div className='ch_bx-cnt'>
+                                <h4>Uniforms</h4>
+                            </div>
+                            <div className='ch_bx-img'>
+                                <img src="assets/images/uniform.png" alt="uniform" />
+                            </div>
                         </div>
-                        <div className='ch_bx-img'>
-                            <img src="assets/images/uniform.png" alt="uniform" />
+                    </Fade>
+
+                    <Fade bottom delay={200} duration={1000}>
+                        <div className='ch_Crd'>
+                            <div className='ch_bx-cnt ch_bx-cnt-bl'>
+                                <h4>School Shoes</h4>
+                            </div>
+                            <div className='ch_bx-img'>
+                                <img src="assets/images/shoes.png" alt="shoes" />
+                            </div>
                         </div>
-                    </div>
-                    <div className='ch_Crd'>
-                        <div className='ch_bx-cnt'>
-                            <h4>School Shoes</h4>
+                    </Fade>
+                    <Fade bottom delay={400} duration={1000}>
+                        <div className='ch_Crd'>
+                            <div className='ch_bx-cnt'>
+                                <h4>School Socks</h4>
+                            </div>
+                            <div className='ch_bx-img'>
+                                <img src="assets/images/socks.png" alt="socks" />
+                            </div>
                         </div>
-                        <div className='ch_bx-img'>
-                            <img src="assets/images/shoes.png" alt="shoes" />
+                    </Fade>
+                    <Fade bottom delay={600} duration={1000}>
+                        <div className='ch_Crd'>
+                            <div className='ch_bx-cnt ch_bx-cnt-bl'>
+                                <h4>Medical Wear</h4>
+                            </div>
+                            <div className='ch_bx-img'>
+                                <img src="assets/images/medical-wear.png" alt="medical wear" />
+                            </div>
                         </div>
-                    </div>
-                    <div className='ch_Crd'>
-                        <div className='ch_bx-cnt'>
-                            <h4>School Socks</h4>
-                        </div>
-                        <div className='ch_bx-img'>
-                            <img src="assets/images/socks.png" alt="socks" />
-                        </div>
-                    </div>
-                    <div className='ch_Crd'>
-                        <div className='ch_bx-cnt'>
-                            <h4>Medical Wear</h4>
-                        </div>
-                        <div className='ch_bx-img'>
-                            <img src="assets/images/socks.png" alt="medical wear" />
-                        </div>
-                    </div>
+                    </Fade>
                 </div>
             </div>
         </div>

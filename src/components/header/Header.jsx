@@ -1,9 +1,34 @@
 import React, { useState } from 'react';
 import "./style.css";
 import MenuModal from '../menu/MenuModal';
+import MobileModal from '../menu/MobileModal';
 
 const Header = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const [isMobModalOpen, setIsMobModalOpen] = useState(false);
+
+  const openMobModal = () => {
+    setIsMobModalOpen(true);
+    // setModalContent(content);
+    // document.body.style.overflow = 'hidden';
+  };
+
+  const closeMobModal = () => {
+    setIsMobModalOpen(false);
+    // if (!isModalOpen) {
+    //     document.body.style.overflow = 'auto';
+    // }
+    // else if (isMobileMenuOpen && isModalOpen) {
+    //     document.body.style.overflow = 'hidden';
+    // }
+    // else {
+    //     document.body.style.overflow = 'auto';
+    // }
+    // setModalContent(null);
+  };
+
+
 
   const openModal = () => {
     setIsModalOpen(true);
@@ -57,8 +82,21 @@ const Header = () => {
             </div>
           </div>
         </div>
+        <div className="mob_Navbar">
+          <div className="mob_Logo-con">
+            <div className="mob-logo">
+              <img src="assets/images/logo.png"></img>
+            </div>
+          </div>
+          <div className="mob_ham-con">
+            <div className="mob_ham" onClick={openMobModal}>
+              <img src="assets/images/bar.png" alt="Menu" className="menu-image" />
+            </div>
+          </div>
+        </div>
       </div>
       <MenuModal isOpen={isModalOpen} onClose={closeModal}></MenuModal>
+      <MobileModal isOpen={isMobModalOpen} onClose={closeMobModal}></MobileModal>
     </>
 
   )

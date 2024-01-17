@@ -70,6 +70,10 @@
     left: 0;
 }
 
+.ch_bx-cnt-bl{
+    background-color: #20248a;
+}
+
 .ch_bx-cnt h4 {
     font-family: Satoshi;
     font-size: 36px;
