@@ -27,7 +27,7 @@
 .rev_logo-col {
     flex: 1;
     height: 390px;
-    border: 1px solid #fff;
+    border: 1px solid #272927;
     border-radius: 100%;
 }
 
@@ -51,7 +51,7 @@
     letter-spacing: 0em;
     text-align: left;
     text-decoration: none;
-    color: #fff;
+    color: #20248A;
 }
 
 .rev_logo-col1 {
@@ -67,6 +67,7 @@
     line-height: 98px;
     letter-spacing: 0em;
     text-align: left;
+    color: #272927;
 }
 
 .review__Ttl {
@@ -138,5 +139,38 @@
 
     .rev_logo-col {
         height: 240px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .review__Ttl h2 {
+        font-size: 78px;
+        line-height: 1;
+    }
+
+    .rv_ln-wp {
+        bottom: 10px;
+    }
+
+    .rev_logo-col1 span {
+        font-size: 37px;
+        line-height: 1;
+    }
+
+    .rev_logo-col {
+        height: 160px;
+    }
+
+    .rev_Cta a {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .review_Cmp-Boxes {
+        margin-top: 5rem;
+    }
+
+    .review__Wrap {
+        margin-bottom: 10rem;
     }
 }

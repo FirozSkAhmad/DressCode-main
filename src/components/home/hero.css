@@ -126,7 +126,7 @@
 } */
 
 .bouncing-blob {
-    width: 500px;
+    width: 400px;
     aspect-ratio: 1;
     border-radius: 50%;
     will-change: transform;
@@ -218,7 +218,7 @@
     }
 
     .bouncing-blob {
-        width: 400px;
+        width: 300px;
     }
 }
 
@@ -245,12 +245,13 @@
 
 @media only screen and (max-width: 991px) {
     .bouncing-blobs-glass {
-        backdrop-filter: blur(60px);
-        height: calc(100vh + 30vh);
+        backdrop-filter: blur(90px);
+        /* height: calc(100vh + 10vh); */
+        height: 100vh;
     }
 
     .bouncing-blob {
-        width: 216px;
+        width: 200px;
     }
 
     .hero__Wrap {
@@ -271,14 +272,23 @@
 
     .hero__Ttl h1 {
         text-align: center;
+        font-size: 53px;
+        line-height: 50px;
     }
 
     .sub_Hero {
         flex-direction: column;
         gap: 8rem;
     }
-    .hero__Para p{
+
+    .hero__Para p {
         text-align: center;
+        font-size: 14px;
+        line-height: 15px;
+    }
+
+    .bouncing-blobs-container {
+        overflow: hidden;
     }
 }
 

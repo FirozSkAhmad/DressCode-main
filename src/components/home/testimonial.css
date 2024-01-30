@@ -71,6 +71,7 @@
     line-height: 39px;
     letter-spacing: 0em;
     text-align: left;
+    color: #fff;
 }
 
 .test_tl-ttl p {
@@ -81,6 +82,7 @@
     letter-spacing: 0em;
     text-align: left;
     padding-right: 40%;
+    color: #fff;
 }
 
 .test_col2 {
@@ -99,6 +101,7 @@
     line-height: 58px;
     letter-spacing: 0em;
     text-align: left;
+    color: #fff;
 }
 
 .test_bl {
@@ -228,5 +231,68 @@
     .swiper-button-next {
         width: 110px;
         height: 110px;
+    }
+}
+
+
+@media only screen and (max-width: 991px) {
+    .test_ttl-div h4 {
+        font-size: 27px;
+        line-height: 25px;
+    }
+
+    .test_sl-name span {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .testimonial-inner {
+        width: 100%;
+        padding-left: 17px;
+    }
+
+    .test_tl-ttl p {
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .test_sl-content {
+        gap: 20px;
+    }
+
+    .swiper-button-prev,
+    .swiper-button-next {
+        width: 81px;
+        height: 81px;
+    }
+
+    .swiper-button-prev img {
+        width: 12px;
+    }
+
+    .swiper-button-next img {
+        width: 12px;
+    }
+
+    .test_col2 {
+        padding: 9rem 0;
+    }
+
+    .quote_test span {
+        font-size: 50px;
+    }
+
+    .quote_test {
+        width: 50px;
+        height: 50px;
+    }
+
+    .test_sl-img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .testimonial_Wrap {
+        margin-bottom: 12rem;
     }
 }

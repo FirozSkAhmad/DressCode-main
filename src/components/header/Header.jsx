@@ -78,7 +78,7 @@ const Header = () => {
               <a href=''>in</a>
             </div>
             <div className='menu_bar' onClick={openModal}>
-              <img src="assets/images/bar.png" alt="menu bar" />
+              <img src="assets/images/bar.svg" alt="menu bar" />
             </div>
           </div>
         </div>
@@ -90,7 +90,7 @@ const Header = () => {
           </div>
           <div className="mob_ham-con">
             <div className="mob_ham" onClick={openMobModal}>
-              <img src="assets/images/bar.png" alt="Menu" className="menu-image" />
+              <img src="assets/images/bar.svg" alt="Menu" className="menu-image" />
             </div>
           </div>
         </div>

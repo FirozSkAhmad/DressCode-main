@@ -39,6 +39,7 @@
     letter-spacing: -0.05em;
     text-align: left;
     margin-bottom: 30px;
+    color: #fff;
 }
 
 .or_sr-cnt p {
@@ -48,6 +49,7 @@
     line-height: 25px;
     letter-spacing: 0em;
     text-align: left;
+    color: #fff;
 }
 
 .or_sr-cd1 {
@@ -197,5 +199,65 @@
     .or_sr-cnt p {
         font-size: 15px;
         line-height: 20px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .ser__Ttl h2 {
+        font-size: 68px;
+        padding-bottom: 15px;
+    }
+
+    .or_Ser-card {
+        margin-top: 30px;
+    }
+
+    .or_sr-ovl {
+        height: 360px;
+    }
+
+    .or_sr-cnt h4 {
+        font-size: 20px;
+        line-height: 21px;
+    }
+
+    .or_sr-cnt p {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .or_sr-cnt {
+        padding: 0 16px 0 16px;
+    }
+
+    .or_sr-cd1 .or_sr-cnt {
+        top: 37px;
+    }
+
+    .or_sr-cd2 .or_sr-cnt {
+        bottom: 37px;
+    }
+
+    .or_sr-cd3 .or_sr-cnt {
+        top: 37px;
+    }
+
+    .or_sr-cd1 .or_sr-ovl {
+        border-bottom-left-radius: 99px;
+        border-bottom-right-radius: 99px;
+    }
+
+    .or_sr-cd2 .or_sr-ovl {
+        border-top-left-radius: 99px;
+        border-top-right-radius: 99px;
+    }
+
+    .or_sr-cd3 .or_sr-ovl {
+        border-bottom-left-radius: 99px;
+        border-bottom-right-radius: 99px;
+    }
+
+    .ourService__Wrap {
+        margin-bottom: 10rem;
     }
 }

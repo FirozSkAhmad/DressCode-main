@@ -260,8 +260,8 @@ textarea {
     }
 
     .mob-menu_Modal-logo {
-        width: 97px;
-        height: 60px;
+        width: 120px;
+        height: 30px;
     }
 
     .mob-mn_Col2 {
@@ -276,7 +276,7 @@ textarea {
     .mob-mn_Col2 ul {
         justify-content: center;
         align-items: center;
-        gap: 8rem;
+        gap: 6rem;
     }
 
     .mob-mn_Col2 a {
@@ -287,6 +287,15 @@ textarea {
     .mob-mn_Cl-icn {
         top: 30px;
         right: 30px;
+    }
+
+    .mob-mn_Cl-icn i {
+        font-size: 24px;
+    }
+
+    .mob-mn_Cl-icn {
+        background: transparent;
+        border: none;
     }
 }
 

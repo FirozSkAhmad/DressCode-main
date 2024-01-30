@@ -42,13 +42,14 @@
 }
 
 body {
-  background-color: #272927;
-  color: #fff;
+  background-color: #fff;
+  color: #20248A;
   overflow-x: hidden;
 }
 
 .page__Wrap {
   position: relative;
+  overflow: hidden;
 }
 
 li {

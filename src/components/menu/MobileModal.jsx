@@ -48,7 +48,7 @@ const MobileModal = ({ isOpen, onClose }) => {
 
                                         {/* <Link href="/" onClick={onClose}><Image src="/assets/images/menu-logo.svg" alt='project-d' width={400} height={56}></Image></Link> */}
                                         <a href="/" className="mob-menu_Modal-logo" onClick={onClose}>
-                                            <img src="assets/images/menu-logo.png" alt="logo"></img>
+                                            <img src="assets/images/logo-menu.png" alt="logo"></img>
                                         </a>
 
                                     </div>
@@ -80,7 +80,7 @@ const MobileModal = ({ isOpen, onClose }) => {
                                         </li>
                                         <li>
                                             <a href="/contact">
-                                                Contact BE
+                                                Contact
                                             </a>
                                         </li>
                                     </ul>
@@ -92,7 +92,7 @@ const MobileModal = ({ isOpen, onClose }) => {
                                             <i className="fa-brands fa-instagram"></i>
                                         </a>
                                         <a href="#" target="_blank" rel="noopener">
-                                            <i className="fa-brands fa-twitter"></i>
+                                            <i className="fa-brands fa-x-twitter"></i>
                                         </a>
                                         <a href="#" target="_blank" rel="noopener">
                                             <i className="fa-brands fa-linkedin-in"></i>

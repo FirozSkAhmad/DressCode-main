@@ -89,6 +89,11 @@ const Hero = () => {
     initBlobs();
   }, []);
 
+
+
+
+
+
   return (
     <>
       <div className="bouncing-blobs-container">

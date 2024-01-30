@@ -27,6 +27,7 @@
     letter-spacing: -0.05em;
     text-align: left;
     padding-bottom: 24px;
+    color: #fff;
     /* border-bottom: 2px solid #fff; */
 }
 
@@ -38,6 +39,7 @@
     letter-spacing: -0.05em;
     text-align: left;
     margin-top: 24px;
+    color: #fff;
 }
 
 .or_prd-row {
@@ -390,5 +392,108 @@
     .intr__Ttl p {
         font-size: 20px;
         line-height: 33px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .ourProduct_Ttl h2 {
+        font-size: 68px;
+        padding-bottom: 15px;
+    }
+
+    .or_prd-cnt h3 {
+        font-size: 19px;
+    }
+
+    .or_prd-cnt p {
+        font-size: 14px;
+    }
+
+    .or_prd-row1 .or_prd-img {
+        width: 57px;
+        height: 50px;
+    }
+
+    .or_prd-row1 .or_prd-col {
+        height: 135px;
+        padding: 0 20px 0 30px;
+    }
+
+    .or_prd-col {
+        height: 135px;
+        gap: 3rem;
+    }
+
+    .or_prd-row1 {
+        top: 30px;
+    }
+
+    .our_products {
+        margin-top: 6rem;
+    }
+
+    .or_prd-row2 .or_prd-img {
+        width: 55px;
+        height: 37px;
+    }
+
+    .or_prd-row2 .hl {
+        width: 441px;
+    }
+
+    .or_prd-row2 {
+        padding: 0 40px 0 30px;
+    }
+
+    .or_prd-row3 .or_prd-img {
+        width: 58px;
+        height: 34px;
+    }
+
+    .or_prd-row3 .hl {
+        width: 351px;
+    }
+
+    .or_prd-row4 .or_prd-img {
+        width: 50px;
+        height: 60px;
+    }
+
+    .or_prd-row4 .hl {
+        width: 351px;
+    }
+
+    .or_prd-row3 .or_prd-col {
+        padding: 0 36px 0 30px;
+    }
+
+    .or_prd-row4 .or_prd-col {
+        padding: 0 40px 0 40px;
+    }
+
+    .intr__Ttl h3 {
+        font-size: 37px;
+        padding-bottom: 15px;
+    }
+
+    .intr__Ttl p {
+        font-size: 14px;
+        line-height: 22px;
+        margin-top: 20px;
+    }
+
+    .intr_str-cle {
+        width: 200px;
+        height: 200px;
+    }
+
+    .intr__Str a {
+        font-size: 19px;
+        line-height: 1;
+    }
+
+    .interested__Sec {
+        margin-top: 10rem;
+        gap: 8rem;
     }
 }
