@@ -177,7 +177,7 @@ textarea {
     line-height: 1;
     letter-spacing: 0px;
     text-align: left;
-    color: #fff;
+    color: #20248A;
     display: flex;
     align-items: center;
     gap: 30px;
@@ -185,7 +185,7 @@ textarea {
 
 .mn_Cnt-us i {
     font-size: 50px;
-    color: #4E4E4E;
+    color: #20248A;
 }
 
 .mob-mn_Col2 ul {

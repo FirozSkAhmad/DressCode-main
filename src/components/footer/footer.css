@@ -404,4 +404,7 @@
     .ft_circle{
         bottom: -10px;
     }
+    .ft_scl a{
+        justify-content: center;
+    }
 }
