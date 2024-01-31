@@ -200,3 +200,53 @@
         margin-bottom: 12rem;
     }
 }
+
+@media only screen and (max-width: 600px) {
+    .about__Ttl h2 {
+        font-size: 26px;
+        padding-bottom: 8px;
+        margin-bottom: 30px;
+        border-bottom: 1px solid #9E4528;
+    }
+
+    .about__Row {
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+
+    .abt_Img {
+        width: 100%;
+    }
+
+    .abt_para1 {
+        width: 100%;
+    }
+
+    .about__Wrap {
+        padding: 0 2rem;
+    }
+
+    .abt_para h3 {
+        margin-bottom: 10px;
+    }
+
+    .abt_para2 {
+        width: 100%;
+    }
+
+    .abt_para3 {
+        width: 100%;
+    }
+
+    .about__Row2 {
+        margin-top: 2rem;
+    }
+
+    .abt_Cta {
+        padding-top: 2rem;
+    }
+
+    .about__Wrap {
+        margin-bottom: 5rem;
+    }
+}

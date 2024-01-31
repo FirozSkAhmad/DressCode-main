@@ -174,3 +174,43 @@
         margin-bottom: 10rem;
     }
 }
+
+@media only screen and (max-width: 600px) {
+    .rv_ln-wp {
+        bottom: 3px;
+    }
+
+    .rv-ln {
+        height: 1px;
+    }
+
+    .review__Ttl h2 {
+        font-size: 26px;
+        line-height: 1;
+    }
+
+    .review__Wrap {
+        padding: 0 2rem;
+    }
+
+    .review_Cmp-Boxes {
+        margin-top: 2rem;
+    }
+
+    .rev_logo-col {
+        height: 82px;
+    }
+
+    .rev_logo-col1 span {
+        font-size: 20px;
+        line-height: 1;
+    }
+
+    .rev_Cta a {
+        margin-bottom: 0;
+    }
+
+    .review__Wrap {
+        margin-bottom: 5rem;
+    }
+}

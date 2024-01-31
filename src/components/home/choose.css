@@ -162,3 +162,39 @@
         margin-bottom: 10rem;
     }
 }
+
+@media only screen and (max-width: 600px) {
+    .choose__Ttl h2 {
+        font-size: 26px;
+        line-height: 1;
+    }
+
+    .ch_ln {
+        height: 1px;
+    }
+
+    .choose__Wrap {
+        padding: 0 2rem;
+    }
+
+    .ch_ln-wp {
+        bottom: 3px;
+    }
+
+    .choose__Card {
+        gap: 10px;
+        margin-top: 2rem;
+        width: 100%;
+        flex-flow: wrap;
+    }
+
+    .ch_Crd {
+        flex: unset;
+        width: 48%;
+    }
+
+    .choose__Wrap {
+        margin-bottom: 5rem;
+    }
+
+}

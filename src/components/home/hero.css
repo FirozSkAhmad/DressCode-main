@@ -292,55 +292,46 @@
     }
 }
 
-@media (max-width: 500px) {
-    /* .bouncing-blob {
-        width: 60vw;
+@media only screen and (max-width: 600px) {
+    .hero__Wrap {
+        padding: 17rem 2rem 2rem 2rem;
     }
 
-    .bouncing-blob--white {
-        width: 30vw;
+    .hero__Sec {
+        gap: 10rem;
     }
 
-    .bouncing-blobs-glass {
-        backdrop-filter: blur(90px);
-        -webkit-backdrop-filter: blur(90px);
-    } */
-
-    .hero h2 {
-        font-size: 32px;
+    .sub_Hero {
+        gap: 3rem;
     }
 
-    .hero p {
-        font-size: 16px;
-        padding: 0 20px;
+    .hr_arw {
+        width: 10px;
+        height: 10px;
     }
-}
 
-.tutorial-link a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: black;
-    font-size: 20px;
-    text-decoration: none;
-    font-weight: 600;
-    gap: 0 5px;
-    border: 2px solid;
-    border-radius: 5px;
-    padding: 4px 10px;
-}
+    .hero__Cta {
+        gap: 9px;
+    }
 
-.tutorial-link svg {
-    width: 30px;
-}
+    .shop_Now-txt span {
+        font-size: 18px;
+    }
 
-@media(max-width: 500px) {
-    .tutorial-link a {
+    .hero__Ttl h1 {
+        font-size: 37px;
+        line-height: 36px;
+    }
+
+    .hero__Para p {
         font-size: 14px;
-        padding: 2px 4px;
+        line-height: 20px;
     }
 
-    .tutorial-link svg {
-        width: 15px;
+    .hero__Para p br {
+        display: none;
+    }
+    .bouncing-blob{
+        width: 160px; 
     }
 }

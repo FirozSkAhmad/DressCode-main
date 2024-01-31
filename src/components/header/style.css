@@ -50,7 +50,7 @@
     left: 0;
     width: 0%;
     height: 1px;
-    background-color: #fff;
+    background-color: #20248A;
     transition: all 0.5s cubic-bezier(0.17, 0.55, 0.55, 1);
 }
 
@@ -151,5 +151,21 @@
     .mob_ham img {
         width: 100%;
         object-fit: cover;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .header__Wrap {
+        padding: 2rem 2rem 0;
+    }
+
+    .mob-logo {
+        width: 80px;
+        height: 20px;
+    }
+
+    .mob_ham {
+        width: 24px;
+        height: 12px;
     }
 }

@@ -296,3 +296,41 @@
         margin-bottom: 12rem;
     }
 }
+
+@media only screen and (max-width: 600px) {
+
+    .swiper-button-prev,
+    .swiper-button-next {
+        width: 80px;
+        height: 80px;
+    }
+
+    .testimonial__Sec {
+        flex-direction: column;
+        gap: 4rem;
+    }
+
+    .test_col1 {
+        width: 100%;
+    }
+
+    .test_col2 {
+        width: 100%;
+    }
+
+    .testimonial__Slide-wrap {
+        height: 311px;
+    }
+
+    .testimonial_Wrap {
+        padding: 0 2rem;
+    }
+
+    .test_tl-ttl p {
+        padding-right: 22%;
+    }
+
+    .testimonial_Wrap {
+        margin-bottom: 7rem;
+    }
+}

@@ -264,8 +264,65 @@
     .lt_para {
         margin-top: 5rem;
     }
+
     .lt_pt-line {
         right: 6rem;
         top: 22px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .latestProduct__Wrap {
+        padding-left: 2rem;
+    }
+
+    .lt_pt-Ttl h2 {
+        font-size: 26px;
+        line-height: 1;
+    }
+
+    .lt_pt-line {
+        right: 2rem;
+        top: 35px;
+    }
+
+    .lt_ln {
+        height: 1px;
+    }
+
+    .lt_Btm-row {
+        flex-direction: column;
+    }
+
+    .lt_para {
+        width: 100%;
+    }
+
+    .lt_Content {
+        width: 100%;
+    }
+
+    .lt_para p br {
+        display: none;
+    }
+
+    .lt_para {
+        margin-top: 3rem;
+    }
+
+    .lt_pr-halfCrl {
+        height: 207px;
+    }
+
+    .lt_pr-halfCrl::before {
+        width: 207px;
+    }
+
+    .lt_pr-halfCrl a {
+        padding-left: 0;
+    }
+
+    .latestProduct__Wrap {
+        margin: 0rem 0 4rem 0;
     }
 }
