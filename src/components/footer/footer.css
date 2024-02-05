@@ -379,12 +379,16 @@
     }
 
     .ft_nv-btm {
-        flex-direction: column-reverse;
+        /* flex-direction: column-reverse; */
         gap: 2rem;
     }
 
+    .copy-right {
+        flex: .5;
+    }
+
     .copy-right span {
-        font-size: 14px;
+        font-size: 10px;
     }
 
     .nv_rgt {
@@ -394,17 +398,23 @@
         /* gap: 1rem; */
     }
 
+    .nv_rgt {
+        flex: 1;
+    }
+
     .nv_rgt a {
-        font-size: 14px;
+        font-size: 10px;
     }
 
     .footer__Wrap {
         padding: 0 2rem 2rem;
     }
-    .ft_circle{
-        bottom: -10px;
+
+    .ft_circle {
+        bottom: -50px;
     }
-    .ft_scl a{
+
+    .ft_scl a {
         justify-content: center;
     }
 }
