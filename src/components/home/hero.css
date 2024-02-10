@@ -1,20 +1,55 @@
-.hero__Ttl h1 {
+.hero__Ttl {
+    display: flex;
+    flex-direction: column;
+}
+
+.hr_ttl-txt {
+    width: 100%;
+    height: 119px;
+    position: relative;
+    overflow: hidden;
+}
+
+.hr_ttl-txt span {
+    position: absolute;
     font-family: Satoshi;
     font-size: 133px;
     font-weight: 500;
-    line-height: 110px;
+    line-height: 1;
     letter-spacing: 0em;
-    /* text-align: left; */
     text-transform: uppercase;
+    width: 100%;
+    display: inline-block;
+    transform: skewY(7);
+    transform: translateY(100%);
 }
 
-.hero__Para p {
+.hero__Para {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.hr_ttl-para {
+    width: 100%;
+    height: 22px;
+    position: relative;
+    overflow: hidden;
+}
+
+.hr_ttl-para span {
+    position: absolute;
     font-family: Satoshi;
     font-size: 20px;
     font-weight: 400;
-    line-height: 20px;
+    line-height: 1;
     letter-spacing: -0.05em;
     text-align: left;
+    text-transform: capitalize;
+    width: 100%;
+    display: inline-block;
+    transform: skewY(7);
+    transform: translateY(100%);
 }
 
 .shop_Now-txt span {
@@ -97,6 +132,8 @@
     display: flex;
     align-items: center;
     gap: 12px;
+    flex: 1;
+    justify-content: flex-end;
 }
 
 
@@ -126,7 +163,7 @@
 } */
 
 .bouncing-blob {
-    width: 400px;
+    width: 300px;
     aspect-ratio: 1;
     border-radius: 50%;
     will-change: transform;
@@ -198,14 +235,20 @@
         gap: 5rem;
     }
 
-    .hero__Ttl h1 {
-        font-size: 80px;
-        line-height: 70px;
+    .hr_ttl-txt {
+        height: 72px;
     }
 
-    .hero__Para p {
+    .hr_ttl-txt span {
+        font-size: 80px;
+    }
+
+    .hr_ttl-para {
+        height: 17px;
+    }
+
+    .hr_ttl-para span {
         font-size: 15px;
-        line-height: 15px;
     }
 
     .shop_Now-txt span {
@@ -233,9 +276,16 @@
         font-size: 28px;
     }
 
+    .hr_ttl-txt {
+        height: 60px;
+    }
+
+    .hr_ttl-txt span {
+        font-size: 65px;
+    }
+
     .hero__Ttl h1 {
         font-size: 65px;
-        line-height: 60px;
     }
 
     .hero__Wrap {
@@ -255,54 +305,71 @@
     }
 
     .hero__Wrap {
-        padding: 30rem 6rem 4rem 6rem;
+        height: 100vh;
+        padding: 0;
+        position: relative;
     }
 
     .hero__Sec {
-        height: 100%;
         flex-direction: column;
         gap: 15rem;
+        position: relative;
+        height: 100%;
     }
 
     .hero__Ttl {
         display: flex;
         justify-content: center;
         align-items: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
     }
 
-    .hero__Ttl h1 {
+    .hr_ttl-txt {
+        height: 50px;
+    }
+
+
+    .hr_ttl-txt span {
         text-align: center;
         font-size: 53px;
-        line-height: 50px;
     }
 
     .sub_Hero {
         flex-direction: column;
-        gap: 8rem;
+        gap: calc(13vh);
+        position: absolute;
+        bottom: 10vh;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
     }
 
-    .hero__Para p {
+    .hr_ttl-para {
+        height: 16px;
+    }
+
+    .hr_ttl-para span {
         text-align: center;
         font-size: 14px;
-        line-height: 15px;
     }
 
     .bouncing-blobs-container {
         overflow: hidden;
     }
+
+    .hero__Para {
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 600px) {
-    .hero__Wrap {
-        padding: 17rem 2rem 2rem 2rem;
-    }
-
-    .hero__Sec {
-        gap: 10rem;
-    }
 
     .sub_Hero {
-        gap: 3rem;
+        bottom: 5vh;
     }
 
     .hr_arw {
@@ -318,20 +385,15 @@
         font-size: 18px;
     }
 
-    .hero__Ttl h1 {
+    .hr_ttl-txt {
+        height: 35px;
+    }
+
+    .hr_ttl-txt span {
         font-size: 37px;
-        line-height: 36px;
     }
 
-    .hero__Para p {
-        font-size: 14px;
-        line-height: 20px;
-    }
-
-    .hero__Para p br {
-        display: none;
-    }
-    .bouncing-blob{
-        width: 160px; 
+    .bouncing-blob {
+        width: 160px;
     }
 }

@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import gsap from 'gsap';
 import "./hero.css";
 
 import Fade from "react-reveal/Fade";
@@ -65,9 +66,8 @@ const Hero = () => {
       }
 
       move() {
-        this.el.style.transform = `translate(${this.x - this.initialX}px, ${
-          this.y - this.initialY
-        }px)`;
+        this.el.style.transform = `translate(${this.x - this.initialX}px, ${this.y - this.initialY
+          }px)`;
       }
     }
 
@@ -89,8 +89,31 @@ const Hero = () => {
     initBlobs();
   }, []);
 
+  // title text reveal
+  useEffect(() => {
+    const tl = gsap.timeline();
 
+    tl.to(".hr_ttl-txt span", 1.8, {
+      y: 0,
+      ease: "power4.out",
+      delay: 0.5,
+      skewY: 0,
+      stagger: {
+        amount: 0.3
+      }
+    })
 
+    tl.to(".hr_ttl-para span", 1.8, {
+      y: 0,
+      ease: "power4.out",
+      delay: 0,
+      skewY: 0,
+      stagger: {
+        amount: 0.3
+      }
+    })
+
+  }, []);
 
 
 
@@ -112,25 +135,30 @@ const Hero = () => {
       <div className="hero__Wrap">
         <div className="hero__Sec">
           <div className="hero__Ttl">
-            <Fade bottom delay={1000} duration={1000}>
-              <h1>
-                the<br></br>
-                future of<br></br>
-                uniform<br></br>
-                shopping<br></br>
-              </h1>
-            </Fade>
+            <div className="hr_ttl-txt">
+              <span>the</span>
+            </div>
+            <div className="hr_ttl-txt">
+              <span>future of</span>
+            </div>
+            <div className="hr_ttl-txt">
+              <span>uniform</span>
+            </div>
+            <div className="hr_ttl-txt">
+              <span>shopping</span>
+            </div>
           </div>
           <div className="sub_Hero">
             <div className="hero__Para">
-              <Fade bottom delay={2000} duration={1000}>
-                <p>
-                  The Uniform must last. We help you<br></br>
-                  choose the fabric from one of the<br></br>
-                  leading garment manufacturers of<br></br>
-                  India like Benny, Sairam, Reliance, ...
-                </p>
-              </Fade>
+              <div className="hr_ttl-para">
+                <span>The Uniform must last. We help you choose</span>
+              </div>
+              <div className="hr_ttl-para">
+                <span>the fabric from one of the leading garment</span>
+              </div>
+              <div className="hr_ttl-para">
+                <span>manufacturers of India like Benny, Sairam, Reliance, ...</span>
+              </div>
               {/* <Fade bottom delay={1000} duration={1000}></Fade> */}
             </div>
             <div className="hero__Cta">
