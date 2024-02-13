@@ -32,6 +32,22 @@ const OurServices = () => {
                 // pin: true
             }
         })
+
+        tl.to(".ser_Line span", 1.8, {
+            width: "58%",
+            ease: "power4.out",
+            delay: 0.5,
+
+            scrollTrigger: {
+                trigger: ".ser_Line span",
+                start: "top 80%",
+                end: "+=300",
+                scrub: 1,
+                // markers: true,
+                once: true
+                // pin: true
+            }
+        })
     }, []);
 
     const ref = useRef(null);
@@ -43,6 +59,9 @@ const OurServices = () => {
                     <div className='ser__Tl-txt'>
                         <span>Our Services</span>
                     </div>
+                </div>
+                <div className='ser_Line'>
+                    <span></span>
                 </div>
                 <div className='or_Ser-card' ref={ref}>
                     <div className='or_sr-cd or_sr-cd1'>

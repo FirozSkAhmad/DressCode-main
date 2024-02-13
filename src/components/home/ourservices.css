@@ -6,6 +6,7 @@
 .ser__Ttl {
     display: flex;
     flex-direction: column;
+    padding-bottom: 36px;
 }
 
 .ser__Tl-txt {
@@ -27,6 +28,13 @@
     display: inline-block;
     transform: skewY(7);
     transform: translateY(100%);
+}
+
+.ser_Line span {
+    display: inline-block;
+    width: 0%;
+    height: 5px;
+    background: #9E4528;
 }
 
 /* .ser__Ttl h2 {
@@ -167,11 +175,19 @@
     }
 
     .ser__Tl-txt {
-        height: 120px;
+        height: 110px;
     }
 
     .ser__Tl-txt span {
         font-size: 120px;
+    }
+
+    .ser_Line span {
+        height: 3px;
+    }
+
+    .ser__Ttl {
+        padding-bottom: 26px;
     }
 
     /* .ser__Ttl h2 {
@@ -218,7 +234,7 @@
     }
 
     .ser__Tl-txt {
-        height: 100px;
+        height: 90px;
     }
 
     .ser__Tl-txt span {
@@ -247,11 +263,15 @@
 @media only screen and (max-width: 991px) {
 
     .ser__Tl-txt {
-        height: 68px;
+        height: 63px;
     }
 
     .ser__Tl-txt span {
         font-size: 68px;
+    }
+
+    .ser__Ttl {
+        padding-bottom: 15px;
     }
 
     /* .ser__Ttl h2 {
@@ -324,6 +344,14 @@
 
     .ser__Tl-txt span {
         font-size: 26px;
+    }
+
+    .ser__Ttl {
+        padding-bottom: 10px;
+    }
+
+    .ser_Line span {
+        height: 1px;
     }
 
     /* .ser__Ttl h2 {

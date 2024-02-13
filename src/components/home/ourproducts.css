@@ -6,11 +6,12 @@
 .ourProduct_Ttl {
     display: flex;
     flex-direction: column;
+    padding-bottom: 36px;
 }
 
 .or__Pr-ttl {
     width: 100%;
-    height: 171px;
+    height: 161px;
     position: relative;
     overflow: hidden;
 }
@@ -27,6 +28,13 @@
     display: inline-block;
     transform: skewY(7);
     transform: translateY(100%);
+}
+
+.or_Pr-line span {
+    display: inline-block;
+    width: 0%;
+    height: 5px;
+    background: #9E4528;
 }
 
 /* .ourProduct_Ttl h2 {
@@ -204,11 +212,12 @@
 .in__Ttl {
     display: flex;
     flex-direction: column;
+    padding-bottom: 36px;
 }
 
 .int__Ttl-txt {
     width: 100%;
-    height: 95px;
+    height: 90px;
     position: relative;
     overflow: hidden;
 }
@@ -225,6 +234,13 @@
     display: inline-block;
     transform: skewY(7);
     transform: translateY(100%);
+}
+
+.in__Line span {
+    display: inline-block;
+    width: 0%;
+    height: 5px;
+    background: #9E4528;
 }
 
 /* .intr__Ttl h3 {
@@ -300,11 +316,23 @@
     }
 
     .or__Pr-ttl {
-        height: 120px;
+        height: 110px;
     }
 
     .or__Pr-ttl span {
         font-size: 120px;
+    }
+
+    .ourProduct_Ttl {
+        padding-bottom: 26px;
+    }
+
+    .or_Pr-line span {
+        height: 3px;
+    }
+
+    .in__Ttl {
+        padding-bottom: 20px;
     }
 
     /* .ourProduct_Ttl h2 {
@@ -382,11 +410,15 @@
     }
 
     .int__Ttl-txt {
-        height: 60px;
+        height: 55px;
     }
 
     .int__Ttl-txt span {
         font-size: 60px;
+    }
+
+    .in__Line span {
+        height: 3px;
     }
 
     /* .intr__Ttl h3 {
@@ -418,7 +450,7 @@
     }
 
     .or__Pr-ttl {
-        height: 100px;
+        height: 92px;
     }
 
     .or__Pr-ttl span {
@@ -487,6 +519,14 @@
 
     .or__Pr-ttl span {
         font-size: 68px;
+    }
+
+    .ourProduct_Ttl {
+        padding-bottom: 15px;
+    }
+
+    .in__Ttl {
+        padding-bottom: 15px;
     }
 
     /* .ourProduct_Ttl h2 {
@@ -607,6 +647,22 @@
 
     .or__Pr-ttl span {
         font-size: 26px;
+    }
+
+    .or_Pr-line span {
+        height: 1px;
+    }
+
+    .ourProduct_Ttl {
+        padding-bottom: 10px;
+    }
+
+    .in__Ttl {
+        padding-bottom: 10px;
+    }
+
+    .in__Line span {
+        height: 1px;
     }
 
     /* .ourProduct_Ttl h2 {

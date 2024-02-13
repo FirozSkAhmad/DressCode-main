@@ -29,6 +29,21 @@ const AboutUs = () => {
                 // pin: true
             }
         })
+        tl.to(".abt_Line span", 1.8, {
+            width: "41%",
+            ease: "power4.out",
+            delay: 0.5,
+            
+            scrollTrigger: {
+                trigger: ".abt_Line span",
+                start: "top 100%",
+                end: "+=300",
+                scrub: 1,
+                // markers: true,
+                once: true
+                // pin: true
+            }
+        })
     }, []);
 
     return (
@@ -38,6 +53,9 @@ const AboutUs = () => {
                     <div className='abt_ttl-txt'>
                         <span>About Us</span>
                     </div>
+                </div>
+                <div className='abt_Line'>
+                    <span></span>
                 </div>
                 <div className='about__Row'>
                     <div className='abt_Img'>

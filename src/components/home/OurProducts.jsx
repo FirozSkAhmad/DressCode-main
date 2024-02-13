@@ -33,6 +33,21 @@ const OurProducts = () => {
                 // pin: true
             }
         })
+        tl.to(".or_Pr-line span", 1.8, {
+            width: "61%",
+            ease: "power4.out",
+            delay: 0.5,
+
+            scrollTrigger: {
+                trigger: ".or_Pr-line span",
+                start: "top 80%",
+                end: "+=300",
+                scrub: 1,
+                // markers: true,
+                once: true
+                // pin: true
+            }
+        })
     }, []);
 
 
@@ -57,6 +72,23 @@ const OurProducts = () => {
                 // pin: true
             }
         })
+
+        tl.to(".in__Line span", 1.8, {
+            width: "53%",
+            ease: "power4.out",
+            delay: 0.5,
+
+            scrollTrigger: {
+                trigger: ".in__Line span",
+                start: "top 80%",
+                end: "+=300",
+                scrub: 1,
+                // markers: true,
+                once: true
+                // pin: true
+            }
+        })
+
     }, []);
 
     return (
@@ -66,6 +98,9 @@ const OurProducts = () => {
                     <div className='or__Pr-ttl'>
                         <span>Our Products</span>
                     </div>
+                </div>
+                <div className='or_Pr-line'>
+                    <span></span>
                 </div>
                 <div className='our_products' ref={ref}>
                     <div className='or_prd-row or_prd-row1'
@@ -152,6 +187,9 @@ const OurProducts = () => {
                         <div className='int__Ttl-txt'>
                             <span>Interested?</span>
                         </div>
+                    </div>
+                    <div className='in__Line'>
+                        <span></span>
                     </div>
                     <p>
                         Elevate your uniform experience with us,
