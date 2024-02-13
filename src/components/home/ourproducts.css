@@ -3,7 +3,33 @@
     margin-bottom: 11rem;
 }
 
-.ourProduct_Ttl h2 {
+.ourProduct_Ttl {
+    display: flex;
+    flex-direction: column;
+}
+
+.or__Pr-ttl {
+    width: 100%;
+    height: 171px;
+    position: relative;
+    overflow: hidden;
+}
+
+.or__Pr-ttl span {
+    position: absolute;
+    font-family: Satoshi;
+    font-size: 171px;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: -0.04em;
+    text-align: left;
+    width: 100%;
+    display: inline-block;
+    transform: skewY(7);
+    transform: translateY(100%);
+}
+
+/* .ourProduct_Ttl h2 {
     font-family: Satoshi;
     font-size: 171px;
     font-weight: 500;
@@ -13,7 +39,7 @@
     padding-bottom: 36px;
     display: inline-block;
     border-bottom: 5px solid #9E4528;
-}
+} */
 
 .our_products {
     margin-top: 15rem;
@@ -175,7 +201,33 @@
     gap: 20rem;
 }
 
-.intr__Ttl h3 {
+.in__Ttl {
+    display: flex;
+    flex-direction: column;
+}
+
+.int__Ttl-txt {
+    width: 100%;
+    height: 95px;
+    position: relative;
+    overflow: hidden;
+}
+
+.int__Ttl-txt span {
+    position: absolute;
+    font-family: Satoshi;
+    font-size: 94px;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 100%;
+    display: inline-block;
+    transform: skewY(7);
+    transform: translateY(100%);
+}
+
+/* .intr__Ttl h3 {
     font-family: Satoshi;
     font-size: 94px;
     font-weight: 500;
@@ -185,7 +237,7 @@
     display: inline-block;
     padding-bottom: 35px;
     border-bottom: 5px solid #9E4528;
-}
+} */
 
 .intr__Str {
     position: relative;
@@ -247,11 +299,19 @@
         padding: 0 8rem;
     }
 
-    .ourProduct_Ttl h2 {
+    .or__Pr-ttl {
+        height: 120px;
+    }
+
+    .or__Pr-ttl span {
+        font-size: 120px;
+    }
+
+    /* .ourProduct_Ttl h2 {
         font-size: 120px;
         border-bottom: 3px solid #9E4528;
         padding-bottom: 30px;
-    }
+    } */
 
     .or_prd-cnt h3 {
         font-size: 32px;
@@ -321,11 +381,19 @@
         margin-top: 10rem;
     }
 
-    .intr__Ttl h3 {
+    .int__Ttl-txt {
+        height: 60px;
+    }
+
+    .int__Ttl-txt span {
+        font-size: 60px;
+    }
+
+    /* .intr__Ttl h3 {
         font-size: 60px;
         padding-bottom: 27px;
         border-bottom: 3px solid #9E4528;
-    }
+    } */
 
     .intr__Ttl p {
         font-size: 24px;
@@ -349,9 +417,17 @@
         padding: 0 6rem;
     }
 
-    .ourProduct_Ttl h2 {
+    .or__Pr-ttl {
+        height: 100px;
+    }
+
+    .or__Pr-ttl span {
         font-size: 100px;
     }
+
+    /* .ourProduct_Ttl h2 {
+        font-size: 100px;
+    } */
 
     .or_prd-cnt p {
         font-size: 20px;
@@ -385,9 +461,17 @@
         width: 360px;
     }
 
-    .intr__Ttl h3 {
+    .int__Ttl-txt {
+        height: 45px;
+    }
+
+    .int__Ttl-txt span {
         font-size: 45px;
     }
+
+    /* .intr__Ttl h3 {
+        font-size: 45px;
+    } */
 
     .intr__Ttl p {
         font-size: 20px;
@@ -396,10 +480,19 @@
 }
 
 @media only screen and (max-width: 991px) {
-    .ourProduct_Ttl h2 {
+
+    .or__Pr-ttl {
+        height: 68px;
+    }
+
+    .or__Pr-ttl span {
+        font-size: 68px;
+    }
+
+    /* .ourProduct_Ttl h2 {
         font-size: 68px;
         padding-bottom: 15px;
-    }
+    } */
 
     .or_prd-cnt h3 {
         font-size: 19px;
@@ -471,10 +564,18 @@
         padding: 0 40px 0 40px;
     }
 
-    .intr__Ttl h3 {
+    .int__Ttl-txt {
+        height: 37px;
+    }
+
+    .int__Ttl-txt span {
+        font-size: 37px;
+    }
+
+    /* .intr__Ttl h3 {
         font-size: 37px;
         padding-bottom: 15px;
-    }
+    } */
 
     .intr__Ttl p {
         font-size: 14px;
@@ -499,11 +600,20 @@
 }
 
 @media only screen and (max-width: 600px) {
-    .ourProduct_Ttl h2 {
+
+    .or__Pr-ttl {
+        height: 26px;
+    }
+
+    .or__Pr-ttl span {
+        font-size: 26px;
+    }
+
+    /* .ourProduct_Ttl h2 {
         font-size: 26px;
         padding-bottom: 8px;
         border-bottom: 1px solid #9E4528;
-    }
+    } */
 
     .ourProduct__Wrap {
         padding: 0 2rem;
@@ -590,11 +700,19 @@
         height: 43px;
     }
 
-    .intr__Ttl h3 {
+    .int__Ttl-txt {
+        height: 26px;
+    }
+
+    .int__Ttl-txt span {
+        font-size: 26px;
+    }
+
+    /* .intr__Ttl h3 {
         font-size: 26px;
         padding-bottom: 8px;
         border-bottom: 1px solid #9E4528;
-    }
+    } */
 
     .interested__Sec {
         margin-top: 5rem;

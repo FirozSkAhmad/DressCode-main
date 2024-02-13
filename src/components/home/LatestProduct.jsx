@@ -1,25 +1,57 @@
-import React, { useRef } from 'react';
+import React, { useRef, useEffect } from 'react';
 import "./latestProduct.css";
 
 import Fade from 'react-reveal/Fade';
+import gsap from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 import { useInView } from "framer-motion";
 
 const LatestProduct = () => {
 
     const ref = useRef(null);
-    const isInView = useInView(ref, { once: true });
+    const isInView = useInView(ref, { marginTop: "80px", once: true });
 
+    useEffect(() => {
+        gsap.registerPlugin(ScrollTrigger);
+        const tl = gsap.timeline();
 
+        tl.to(".lt_ttl span", 1.8, {
+            y: 0,
+            ease: "power4.out",
+            delay: 0.5,
+            skewY: 0,
+
+            stagger: {
+                amount: 0.3
+            },
+            scrollTrigger: {
+                trigger: ".lt_ttl span",
+                start: "top 80%",
+                end: "+=300",
+                scrub: 1,
+                // markers: true,
+                once: true
+                // pin: true
+
+            }
+        })
+
+    }, []);
 
 
     return (
         <div className='latestProduct__Wrap'>
             <div className='lt_Pr-sec' >
                 <div className='lt_pt-Ttl'>
-                    <h2>
-                        Latest<br></br>Products
-                    </h2>
+                    <div className='lt_txt-ttl'>
+                        <div className='lt_ttl'>
+                            <span>Latest</span>
+                        </div>
+                        <div className='lt_ttl'>
+                            <span>Products</span>
+                        </div>
+                    </div>
                     <div className='lt_pt-line' ref={ref}>
                         <span className='lt_ln'
                             style={{

@@ -1,18 +1,43 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import "./about.css";
 
 import Fade from 'react-reveal/Fade';
+import gsap from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 const AboutUs = () => {
+
+    useEffect(() => {
+        gsap.registerPlugin(ScrollTrigger);
+        const tl = gsap.timeline();
+
+        tl.to(".abt_ttl-txt span", 1.8, {
+            y: 0,
+            ease: "power4.out",
+            delay: 0.5,
+            skewY: 0,
+            stagger: {
+                amount: 0.3
+            },
+            scrollTrigger: {
+                trigger: ".abt_ttl-txt span",
+                start: "top 100%",
+                end: "+=300",
+                scrub: 1,
+                // markers: true,
+                once: true
+                // pin: true
+            }
+        })
+    }, []);
+
     return (
         <div className='about__Wrap'>
             <div className='about__Sec'>
                 <div className='about__Ttl'>
-                    <Fade bottom duration={1000}>
-                        <h2>
-                            About Us
-                        </h2>
-                    </Fade>
+                    <div className='abt_ttl-txt'>
+                        <span>About Us</span>
+                    </div>
                 </div>
                 <div className='about__Row'>
                     <div className='abt_Img'>

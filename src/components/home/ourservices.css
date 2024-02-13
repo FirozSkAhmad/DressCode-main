@@ -3,7 +3,33 @@
     margin-bottom: 23rem;
 }
 
-.ser__Ttl h2 {
+.ser__Ttl {
+    display: flex;
+    flex-direction: column;
+}
+
+.ser__Tl-txt {
+    width: 100%;
+    height: 171px;
+    position: relative;
+    overflow: hidden;
+}
+
+.ser__Tl-txt span {
+    position: absolute;
+    font-family: Satoshi;
+    font-size: 171px;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: -0.04em;
+    text-align: left;
+    width: 100%;
+    display: inline-block;
+    transform: skewY(7);
+    transform: translateY(100%);
+}
+
+/* .ser__Ttl h2 {
     font-family: Satoshi;
     font-size: 171px;
     font-weight: 500;
@@ -13,7 +39,7 @@
     padding-bottom: 36px;
     display: inline-block;
     border-bottom: 5px solid #9E4528;
-}
+} */
 
 .or_Ser-card {
     margin-top: 66px;
@@ -140,11 +166,19 @@
         margin-bottom: 20rem;
     }
 
-    .ser__Ttl h2 {
+    .ser__Tl-txt {
+        height: 120px;
+    }
+
+    .ser__Tl-txt span {
+        font-size: 120px;
+    }
+
+    /* .ser__Ttl h2 {
         font-size: 120px;
         padding-bottom: 30px;
         border-bottom: 3px solid #9E4528;
-    }
+    } */
 
     .or_sr-ovl {
         height: 600px;
@@ -183,9 +217,17 @@
         padding: 0 6rem;
     }
 
-    .ser__Ttl h2 {
+    .ser__Tl-txt {
+        height: 100px;
+    }
+
+    .ser__Tl-txt span {
         font-size: 100px;
     }
+
+    /* .ser__Ttl h2 {
+        font-size: 100px;
+    } */
 
     .or_sr-cnt {
         padding: 0 30px 0 30px;
@@ -203,10 +245,19 @@
 }
 
 @media only screen and (max-width: 991px) {
-    .ser__Ttl h2 {
+
+    .ser__Tl-txt {
+        height: 68px;
+    }
+
+    .ser__Tl-txt span {
+        font-size: 68px;
+    }
+
+    /* .ser__Ttl h2 {
         font-size: 68px;
         padding-bottom: 15px;
-    }
+    } */
 
     .or_Ser-card {
         margin-top: 30px;
@@ -262,16 +313,24 @@
     }
 }
 
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 600px) {
     .ourService__Wrap {
         padding: 0 2rem;
     }
 
-    .ser__Ttl h2 {
+    .ser__Tl-txt {
+        height: 26px;
+    }
+
+    .ser__Tl-txt span {
+        font-size: 26px;
+    }
+
+    /* .ser__Ttl h2 {
         font-size: 26px;
         padding-bottom: 8px;
         border-bottom: 1px solid #9E4528;
-    }
+    } */
 
     .or_Ser-card {
         flex-direction: column;

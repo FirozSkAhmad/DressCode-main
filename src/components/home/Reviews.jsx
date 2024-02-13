@@ -1,9 +1,12 @@
-import React, { useRef } from 'react';
+import React, { useRef, useEffect } from 'react';
 import "./review.css";
 
 import Fade from 'react-reveal/Fade';
 
 import { useInView } from "framer-motion";
+
+import gsap from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 
 const Reviews = () => {
@@ -11,16 +14,45 @@ const Reviews = () => {
     const ref = useRef(null);
     const isInView = useInView(ref, { once: true });
 
+    useEffect(() => {
+        gsap.registerPlugin(ScrollTrigger);
+        const tl = gsap.timeline();
+
+        tl.to(".rv__Ttl-txt span", 1.8, {
+            y: 0,
+            ease: "power4.out",
+            delay: 0.5,
+            skewY: 0,
+
+            stagger: {
+                amount: 0.3
+            },
+            scrollTrigger: {
+                trigger: ".rv__Ttl-txt span",
+                start: "top 80%",
+                end: "+=300",
+                scrub: 1,
+                // markers: true,
+                once: true
+                // pin: true
+
+            }
+        })
+
+    }, []);
+
     return (
         <div className='review__Wrap'>
             <div className='review__Sec'>
                 <div className='review__Ttl'>
-                    <Fade top duration={1000}>
-                        <h2>
-                            Our Clients<br></br>
-                            <span>&</span> Reviews
-                        </h2>
-                    </Fade>
+                    <div className='rv__Ttl-s'>
+                        <div className='rv__Ttl-txt'>
+                            <span>Our Clients</span>
+                        </div>
+                        <div className='rv__Ttl-txt'>
+                            <span><a className='cl'>&</a> Reviews</span>
+                        </div>
+                    </div>
                     <div className='rv_ln-wp' ref={ref}>
                         <span className='rv-ln'
                             style={{

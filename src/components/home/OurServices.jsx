@@ -1,24 +1,48 @@
-import React, { useRef } from 'react';
+import React, { useRef, useEffect } from 'react';
 import "./ourservices.css";
 
 import Fade from 'react-reveal/Fade';
 
 import { useInView } from "framer-motion";
 
-
+import gsap from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 const OurServices = () => {
+
+    useEffect(() => {
+        gsap.registerPlugin(ScrollTrigger);
+        const tl = gsap.timeline();
+        tl.to(".ser__Tl-txt span", 1.8, {
+            y: 0,
+            ease: "power4.out",
+            delay: 0.5,
+            skewY: 0,
+
+            stagger: {
+                amount: 0.3
+            },
+            scrollTrigger: {
+                trigger: ".ser__Tl-txt span",
+                start: "top 80%",
+                end: "+=300",
+                scrub: 1,
+                // markers: true,
+                once: true
+                // pin: true
+            }
+        })
+    }, []);
+
     const ref = useRef(null);
     const isInView = useInView(ref, { once: true });
     return (
         <div className='ourService__Wrap'>
             <div className='ourService__Sec'>
                 <div className='ser__Ttl'>
-                    <Fade bottom duration={1000}>
-                        <h2>
-                            Our Services
-                        </h2>
-                    </Fade>
+                    <div className='ser__Tl-txt'>
+                        <span>Our Services</span>
+                    </div>
                 </div>
                 <div className='or_Ser-card' ref={ref}>
                     <div className='or_sr-cd or_sr-cd1'>

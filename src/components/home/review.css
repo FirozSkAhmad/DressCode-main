@@ -3,18 +3,48 @@
     margin-bottom: 22rem;
 }
 
-.review__Ttl h2 {
+.rv__Ttl-s {
+    display: flex;
+    flex-direction: column;
+}
+
+.rv__Ttl-txt {
+    width: 100%;
+    height: 188px;
+    position: relative;
+    overflow: hidden;
+}
+
+.rv__Ttl-txt span {
+    position: absolute;
+    font-family: Satoshi;
+    font-size: 188px;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 100%;
+    display: inline-block;
+    transform: skewY(7);
+    transform: translateY(100%);
+}
+
+.cl {
+    color: #DF3701;
+}
+
+/* .review__Ttl h2 {
     font-family: Satoshi;
     font-size: 188px;
     font-weight: 500;
     line-height: 180px;
     letter-spacing: 0em;
     text-align: left;
-}
+} */
 
-.review__Ttl span {
+/* .review__Ttl span {
     color: #DF3701;
-}
+} */
 
 .review_Cmp-Boxes {
     margin-top: 11rem;
@@ -99,10 +129,18 @@
         margin-bottom: 18rem;
     }
 
-    .review__Ttl h2 {
+    .rv__Ttl-txt {
+        height: 130px;
+    }
+
+    .rv__Ttl-txt span {
+        font-size: 130px;
+    }
+
+    /* .review__Ttl h2 {
         font-size: 130px;
         line-height: 130px;
-    }
+    } */
 
     .rv-ln {
         height: 3px;
@@ -132,10 +170,18 @@
         padding: 0 6rem;
     }
 
-    .review__Ttl h2 {
+    .rv__Ttl-txt {
+        height: 110px;
+    }
+
+    .rv__Ttl-txt span {
+        font-size: 110px;
+    }
+
+    /* .review__Ttl h2 {
         font-size: 110px;
         line-height: 110px;
-    }
+    } */
 
     .rev_logo-col {
         height: 240px;
@@ -143,10 +189,19 @@
 }
 
 @media only screen and (max-width: 991px) {
-    .review__Ttl h2 {
+
+    .rv__Ttl-txt {
+        height: 78px;
+    }
+
+    .rv__Ttl-txt span {
+        font-size: 78px;
+    }
+
+    /* .review__Ttl h2 {
         font-size: 78px;
         line-height: 1;
-    }
+    } */
 
     .rv_ln-wp {
         bottom: 10px;
@@ -184,10 +239,18 @@
         height: 1px;
     }
 
-    .review__Ttl h2 {
+    .rv__Ttl-txt {
+        height: 26px;
+    }
+
+    .rv__Ttl-txt span {
+        font-size: 26px;
+    }
+
+    /* .review__Ttl h2 {
         font-size: 26px;
         line-height: 1;
-    }
+    } */
 
     .review__Wrap {
         padding: 0 2rem;
