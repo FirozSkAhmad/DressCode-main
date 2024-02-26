@@ -76,7 +76,7 @@ const ContactModal = ({ isOpen, onClose }) => {
           "Thank you. We will get back to you as soon as possible",
           {
             style: {
-              backgroundColor: "#D4145A",
+              backgroundColor: "#14d414",
               color: "white",
             },
             position: "top-right",
