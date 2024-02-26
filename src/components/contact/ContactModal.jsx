@@ -4,6 +4,7 @@ import { Modal } from "react-responsive-modal";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import axios from "axios";
+import Image from "../../../public/assets/images/formimage.svg";
 import "./ContactModal.css";
 
 const ContactModal = ({ isOpen, onClose }) => {
@@ -209,10 +210,7 @@ const ContactModal = ({ isOpen, onClose }) => {
             </form>
           </div>
           <div className="image-container">
-            <img
-              src="../../../public/assets/images/formimage.svg"
-              alt="Image"
-            />
+            <img src={Image} alt="Image" />
           </div>
         </div>
       </Modal>
