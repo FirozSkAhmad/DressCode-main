@@ -143,12 +143,12 @@ const TestimonialSlider = () => {
         <div className="test_col2">
           <div className="test_ttl-div">
             <h4>
-              SINCE 2022<br></br>
-              WE HAVE<br></br>
-              PARTNERED<br></br>
-              WITH MORE<br></br>
-              THAN 20<br></br>
-              SCHOOLS.
+              35 Years<br></br>
+              Leading<br></br>
+              Evolving,Expertise<br></br>
+              Shaping<br></br>
+              Our<br></br>
+              Fields,Future
             </h4>
           </div>
           <div className="quote_test">
