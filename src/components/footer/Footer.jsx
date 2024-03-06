@@ -1,8 +1,9 @@
 import React, { useRef, useState } from "react";
-import "./footer.css";
 import Fade from "react-reveal/Fade";
 import { useInView } from "framer-motion";
 import ContactModal from "../contact/ContactModal";
+import { Link } from "react-router-dom";
+import "./footer.css";
 
 const Footer = () => {
   const ref = useRef(null);
@@ -98,12 +99,14 @@ const Footer = () => {
           </Fade>
         </div>
         <div className="ft_nv-btm">
-          <div className="copy-right">
+          {/* <div className="copy-right">
             <span>@ 2024 Copy rights</span>
-          </div>
+          </div> */}
           <div className="nv_rgt">
+            <a href="">@ 2024 Copy rights</a>
             <a href="">Cookie policy</a>
-            <a href="">Privacy policy</a>
+            <Link to="/refund-policies">Return Policy</Link>
+            <Link to="/privacy-policies">Privacy policy</Link>
             <a href="">Terms of Use</a>
           </div>
         </div>
