@@ -103,6 +103,7 @@ const Footer = () => {
             <span>@ 2024 Copy rights</span>
           </div> */}
           <div className="nv_rgt">
+            <a href="">Legal Name: MEENA JHAVER</a>
             <a href="">@ 2024 Copy rights</a>
             <a href="">Cookie policy</a>
             <Link to="/refund-policies">Return Policy</Link>
