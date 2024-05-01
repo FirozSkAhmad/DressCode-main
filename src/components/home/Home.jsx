@@ -13,6 +13,7 @@ import { Route, Routes } from "react-router-dom";
 import Lenis from "@studio-freight/lenis";
 import PrivacyPolicy from "../footer/PrivacyPolicy";
 import RefundPolicy from "../footer/RefundPolicy";
+import Blog from "../blog/Blog";
 // import LottieComponent from '../LottieComponent';
 
 const Home = () => {
@@ -46,6 +47,7 @@ const Home = () => {
             <OurProducts />
             <Reviews />
             <TestimonialSlider />
+            <Blog />
             <Footer />
             {/* <LottieComponent></LottieComponent> */}
           </div>

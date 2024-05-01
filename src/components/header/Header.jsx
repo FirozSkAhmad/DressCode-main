@@ -56,7 +56,7 @@ const Header = () => {
       <div className='header__Wrap'>
         <div className='header_Sec'>
           <div className='logo'>
-            <a href=""><img src='assets/images/logo.png' alt='logo'></img></a>
+            <a href="/"><img src='assets/images/logo.png?src' alt='logo'></img></a>
           </div>
           <div className='navbar'>
             <nav>
