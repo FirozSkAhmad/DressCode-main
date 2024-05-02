@@ -15,7 +15,7 @@
 .blog-content-head h3 {
   color: #20248a;
   font-family: Satoshi;
-  font-size: 7vh;
+  font-size: 10vh;
   font-style: normal;
   font-weight: 500;
   line-height: 116%; /* 148.48px */
@@ -273,5 +273,11 @@
 @media screen and (min-width: 1220px) {
   .blog-content {
     padding: 75px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .blog-content-head h3 {
+    font-size: 5vh;
   }
 }
