@@ -1,12 +1,8 @@
-import React, { useContext, useEffect, useState } from "react";
+import React, { useContext, useEffect } from "react";
 import "./blog.css";
-import { getDocs, collection } from "firebase/firestore";
 import sharedContext from "../../context/SharedContext";
-import { db } from "../../firebase";
 import { Link, useNavigate } from "react-router-dom";
 import Fade from "react-reveal/Fade";
-
-import { useInView } from "framer-motion";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
@@ -151,7 +147,7 @@ const Blog = () => {
               ))
             : limitedBlogsData.map((data, index) => (
                 <Fade bottom duration={1000} delay={index * 200} key={data.id}>
-                  <div className="blog-cards-sec">
+                  <div className="blog-cards-sec" onClick={() => handleViewBlog(data)}>
                     <div className="blog-post">
                       <div className="blog-img">
                         <img src={data.img} alt="Blog Image" />
