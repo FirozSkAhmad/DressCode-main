@@ -48,7 +48,7 @@
 
 .blog-cards-sec {
   margin-top: 30px;
-  background-color: #bcbcbc;
+  background-color: #FAFAFA;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
@@ -67,16 +67,18 @@
   display: flex;
   justify-content: center; /* Center the image horizontally */
   align-items: center; /* Center the image vertically */
-  border-radius: 10px; /* Rounded corners for the container */
+  /* Rounded corners for the container */
   background-color: #a2a2b1;
 }
 
 .blog-img {
   height: 300px;
+  border-radius: 10px 10px 0 0; 
 }
 
 .post-img{
   margin-top: 30px;
+  border-radius: 10px; 
 }
 
 .blog-img img,
@@ -103,7 +105,7 @@
 }
 
 .view {
-  color: #464648;
+  color: #8E8E8E;
   font-family: Satoshi;
   font-style: normal;
   font-weight: 500;
