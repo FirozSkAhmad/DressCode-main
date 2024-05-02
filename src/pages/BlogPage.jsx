@@ -47,7 +47,7 @@ const BlogPage = () => {
         </div>
         <div className="blogs-grid">
           {blogsData.map((data, index) => (
-            <div className="blog-cards-sec" key={data.id}>
+            <div className="blog-cards-sec" key={data.id} onClick={() => handleViewBlog(data)}>
               <div className="blog-post">
                 <div className="blog-img">
                   <img src={data?.img} alt="Blog Image" />
