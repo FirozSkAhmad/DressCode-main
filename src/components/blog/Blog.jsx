@@ -40,9 +40,6 @@ const Blog = () => {
     });
   }, []);
 
-  // Show only the first three items from blogsData
-  const limitedBlogsData = blogsData.slice(0, 3);
-
   const handleViewBlog = (data) => {
     // Combine clicked card with the additional four cards
     const dataToSend = {
@@ -58,6 +55,36 @@ const Blog = () => {
       state: { data: dataToSend },
     });
   };
+
+  const limitedBlogsData = blogsData.slice(0, 3); // Adjust accordingly if you want more blogs
+
+  useEffect(() => {
+    const adjustHeight = () => {
+      const blogTitles = document.querySelectorAll('.blog-title');
+      let maxHeight = 0;
+
+      // Find the maximum height
+      blogTitles.forEach((blogTitle) => {
+        const height = blogTitle.clientHeight;
+        if (height > maxHeight) {
+          maxHeight = height;
+        }
+      });
+
+      // Set all blog titles to the maximum height
+      blogTitles.forEach((blogTitle) => {
+        blogTitle.style.height = `${maxHeight}px`;
+      });
+    };
+
+    adjustHeight();
+    // Adding an event listener to window resize if you want the adjustment to be responsive
+    window.addEventListener('resize', adjustHeight);
+
+    // Cleanup the event listener on component unmount
+    return () => window.removeEventListener('resize', adjustHeight);
+  }, [blogsData]); // Dependency array includes blogsData to rerun the effect when it changes
+
 
   const ShimmerCard = () => (
     <div className="blog-cards-sec">
@@ -87,6 +114,25 @@ const Blog = () => {
     </div>
   );
 
+  window.onload = function () {
+    const blogTitles = document.querySelectorAll(".blog-title");
+    let maxHeight = 0;
+
+    // Find the maximum height
+    blogTitles.forEach(function (blogTitle) {
+      const height = blogTitle.clientHeight;
+      if (height > maxHeight) {
+        maxHeight = height;
+      }
+    });
+
+    console.log("maxHeight",maxHeight)
+    // Set all blog titles to the maximum height
+    blogTitles.forEach(function (blogTitle) {
+      blogTitle.style.height = maxHeight + "px";
+    });
+  };
+
   return (
     <div className="blog-sec">
       <div className="blog-content">
@@ -97,23 +143,21 @@ const Blog = () => {
           </Link>
         </div>
         <div className="blog-grid">
-          {blogsData.length == 0
+          {blogsData.length === 0
             ? Array.from({ length: 3 }, (_, index) => (
-                <>
-                  <Fade bottom duration={1000} delay={index * 200}>
-                    <ShimmerCard key={index} />
-                  </Fade>
-                </>
+                <Fade bottom duration={1000} delay={index * 200} key={index}>
+                  <ShimmerCard />
+                </Fade>
               ))
-            : limitedBlogsData.slice(0, 3).map((data, index) => (
-                <Fade bottom duration={1000} delay={index * 200} key={data?.id}>
+            : limitedBlogsData.map((data, index) => (
+                <Fade bottom duration={1000} delay={index * 200} key={data.id}>
                   <div className="blog-cards-sec">
                     <div className="blog-post">
                       <div className="blog-img">
-                        <img src={data?.img} alt="Blog Image" />
+                        <img src={data.img} alt="Blog Image" />
                       </div>
                       <div className="blog-title">
-                        <p className="title">{data?.heading}</p>
+                        <p className="title">{data.heading}</p>
                         <p
                           className="view"
                           onClick={() => handleViewBlog(data)}

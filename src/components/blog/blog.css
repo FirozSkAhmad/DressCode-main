@@ -48,7 +48,7 @@
 
 .blog-cards-sec {
   margin-top: 30px;
-  background-color: #FAFAFA;
+  background-color: #fafafa;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
@@ -73,12 +73,12 @@
 
 .blog-img {
   height: 300px;
-  border-radius: 10px 10px 0 0; 
+  border-radius: 10px 10px 0 0;
 }
 
-.post-img{
+.post-img {
   margin-top: 30px;
-  border-radius: 10px; 
+  border-radius: 10px;
 }
 
 .blog-img img,
@@ -105,14 +105,18 @@
 }
 
 .view {
-  color: #8E8E8E;
+  color: #8e8e8e;
   font-family: Satoshi;
   font-style: normal;
   font-weight: 500;
   font-size: 3vh;
   letter-spacing: -0.5px;
   cursor: pointer;
-  text-align: end;
+  height: 100%;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  flex-flow: column-reverse;
 }
 
 .shimmer {
